@@ -10,7 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace myProject.Services
 {
-    public static class FbiTokenService
+    public static class UserTokenService
     {
         private static SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ"));
         private static string issuer = "https://fbi-demo.com";

@@ -67,6 +67,12 @@ public class IceCreamService : IIceCreamService
         list.Remove(iceCream);
         return true;
     }
+    
+    // delete all ice creams for given user id
+    public void DeleteByUserId(int userId)
+    {
+        list.RemoveAll(ic => ic.UserId == userId);
+    }
       
 }
 

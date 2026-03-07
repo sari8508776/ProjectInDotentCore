@@ -14,10 +14,12 @@ namespace myProject.Controllers;
 public class UserController : ControllerBase
 {
     IUserService userService;
+    private readonly myProject.Interfaces.IIceCreamService _iceCreamService;
 
-    public UserController(IUserService userService)
+    public UserController(IUserService userService, myProject.Interfaces.IIceCreamService iceCreamService)
     {
         this.userService = userService;
+        this._iceCreamService = iceCreamService;
     }
 
     [HttpGet("me")]
@@ -80,6 +82,17 @@ public class UserController : ControllerBase
         var user = userService.find(id);
         if (user == null)
             return NotFound();
+
+        // remove user's ice creams first
+        try
+        {
+            _iceCreamService?.DeleteByUserId(id);
+        }
+        catch
+        {
+            // if ice cream deletion fails, continue to attempt user deletion
+        }
+
         if (!userService.Delete(id))
             return NotFound();
         return Ok(user);
@@ -108,8 +121,8 @@ public class UserController : ControllerBase
             new Claim("userid", user.Id.ToString()),
             new Claim("usertype", userType)
         };
-        var token = FbiTokenService.GetToken(claims);
-        var tokenString = FbiTokenService.WriteToken(token);
+    var token = UserTokenService.GetToken(claims);
+    var tokenString = UserTokenService.WriteToken(token);
         return Ok(new { token = tokenString });
     }
 

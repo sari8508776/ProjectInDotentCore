@@ -20,7 +20,7 @@ builder.Services
     .AddJwtBearer(cfg =>
     {
         cfg.RequireHttpsMetadata = false;
-        cfg.TokenValidationParameters = FbiTokenService.GetTokenValidationParameters();
+    cfg.TokenValidationParameters = UserTokenService.GetTokenValidationParameters();
     });
 
 builder.Services.AddAuthorization(cfg =>
