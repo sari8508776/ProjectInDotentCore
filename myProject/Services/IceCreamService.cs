@@ -3,23 +3,16 @@ using System;
 using myProject.Interfaces;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.Extensions.DependencyInjection;
-using myProject.Models;
-using myProject.Hubs;
-using Microsoft.AspNetCore.SignalR;
-using System.Linq;
-
-
-
 
 namespace myProject.Services;
 
 public class IceCreamService : IIceCreamService
 
 {
-    private List<IceCream> list;
-    public IceCreamService()
+    private  List<IceCream> list;
+
+    public  IceCreamService()
     {
-        
            list = new List<IceCream>
         {
             new IceCream { Id = 1, Name = "Vanilla Dream", IsVegan = false, UserId = 1},
@@ -49,7 +42,6 @@ public class IceCreamService : IIceCreamService
         var maxId = list.Max(p => p.Id);
         newIceCream.Id = maxId + 1;
         list.Add(newIceCream);
-        BroadcastActivity(  "added");
         return newIceCream;
     }
 

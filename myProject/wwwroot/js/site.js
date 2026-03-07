@@ -1,33 +1,5 @@
 const uri = '/api/IceCream';
 let items = [];
-// signalr hub connection (initialized lazily)
-let iceCreamConnection;
-
-function ensureConnection() {
-    if (iceCreamConnection) return iceCreamConnection;
-    const token = localStorage.getItem('token');
-    iceCreamConnection = new signalR.HubConnectionBuilder()
-        .withUrl('/icecreamHub', { accessTokenFactory: () => token })
-        .build();
-
-    iceCreamConnection.on('ReceiveActivity', (user, action, name) => {
-        // whenever any connection (including us) triggers an activity we simply reload the list
-        console.log('signalr received', user, action, name);
-        getItems();
-    });
-
-    iceCreamConnection.start().catch(err => console.error('SignalR error', err));
-    return iceCreamConnection;
-}
-
-// helper used after a local change so other tabs/devices will be notified
-function notifyOthers(action, name) {
-    const conn = ensureConnection();
-    if (conn && conn.state === signalR.HubConnectionState.Connected) {
-        conn.invoke('NotifyOthers', action, name)
-            .catch(err => console.error('notify failed', err));
-    }
-}
 
 function getHeaders() {
     const headers = {
@@ -100,7 +72,6 @@ function addItem() {
             getItems();
             addNameTextbox.value = '';
             document.getElementById('add-isVegan').checked = false;
-            notifyOthers('added', item.name);
         })
         .catch(error => console.error('Unable to add item.', error));
 }
@@ -157,7 +128,7 @@ function updateItem() {
             }
             return response;
         })
-.then(() => { getItems(); notifyOthers('updated', item.name); })
+        .then(() => getItems())
         .catch(error => console.error('Unable to update item.', error));
 
     closeInput();

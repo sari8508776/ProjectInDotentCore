@@ -46,7 +46,6 @@
         <tbody id="products"></tbody>
     </table>
     <a href="html/user.html">👤 Go to Users</a>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.0/signalr.min.js" integrity="sha512-9Zp+bdndlWEHK/D+f16FVyykG5ftPXwwL58o9ptVu6CEahlO3zHd6Vh7VSOzxJ3BTbHgQo1hQZvV7DlsEQn2mg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/site.js?v=2"></script>
     <script type="text/javascript">
         if (!localStorage.getItem('token')) {
@@ -58,21 +57,6 @@
             }
             document.addEventListener("DOMContentLoaded", function() {
                 getItems();
-                // start SignalR connection for real‑time updates
-                if (!window.iceCreamConnection) {
-                    const token = localStorage.getItem('token');
-                    window.iceCreamConnection = new signalR.HubConnectionBuilder()
-                        .withUrl('/icecreamHub', { accessTokenFactory: () => token })
-                        .build();
-
-                    window.iceCreamConnection.on('ReceiveActivity', (user, action, name) => {
-                        // if the notification originates from a different tab, reload the list
-                        console.log('signalr', user, action, name);
-                        getItems();
-                    });
-
-                    window.iceCreamConnection.start().catch(err => console.error(err.toString()));
-                }
             });
         }
     </script>

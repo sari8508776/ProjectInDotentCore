@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\myProject.csproj": {}
+    "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\myProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\myProject.csproj": {
+    "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\myProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\myProject.csproj",
+        "projectUniqueName": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\myProject.csproj",
         "projectName": "myProject",
-        "projectPath": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\myProject.csproj",
+        "projectPath": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\myProject.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\obj\\",
+        "outputPath": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,10 +58,6 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
-            "Microsoft.AspNetCore.SignalR": {
-              "target": "Package",
-              "version": "[1.2.9, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -90,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

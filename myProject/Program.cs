@@ -3,7 +3,6 @@ using myProject;
 using myProject.Services;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using myProject.Hubs;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,10 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddIceCream();
 builder.Services.addUserService();
-// allow reading HttpContext from services (not strictly needed here)
-builder.Services.AddHttpContextAccessor();
-
-builder.Services.AddSignalR();
 
 // Add authentication
 builder.Services
@@ -26,22 +21,6 @@ builder.Services
     {
         cfg.RequireHttpsMetadata = false;
         cfg.TokenValidationParameters = FbiTokenService.GetTokenValidationParameters();
-
-        // when the hub is accessed via WebSocket, the token comes via query string
-        cfg.Events = new JwtBearerEvents
-        {
-            OnMessageReceived = ctx =>
-            {
-                var accessToken = ctx.Request.Query["access_token"];
-                var path = ctx.HttpContext.Request.Path;
-                if (!string.IsNullOrEmpty(accessToken) &&
-                    path.StartsWithSegments("/icecreamHub"))
-                {
-                    ctx.Token = accessToken;
-                }
-                return Task.CompletedTask;
-            }
-        };
     });
 
 builder.Services.AddAuthorization(cfg =>
@@ -88,7 +67,6 @@ if (app.Environment.IsDevelopment())
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
     });
 }
-app.MapHub<IceCreamHub>("/icecreamHub");
 app.UseDefaultFiles(new DefaultFilesOptions
 {
     DefaultFileNames = new List<string> { "login.html" }

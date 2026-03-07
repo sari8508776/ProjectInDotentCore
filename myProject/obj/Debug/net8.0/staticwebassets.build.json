@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VSrtyc+0Fe6FFK7+BBCKBdanmRG9i2AToFUsfQE7/qA=",
+  "Hash": "ieJ9v5jb8fnmKDtetQXULtireF9HkeBiNr9S56egV+w=",
   "Source": "myProject",
   "BasePath": "_content/myProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "myProject\\wwwroot",
       "Source": "myProject",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\",
       "BasePath": "_content/myProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\css\\site.css",
       "SourceId": "myProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\",
       "BasePath": "_content/myProject",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\css\\user.css",
+      "Identity": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\css\\user.css",
       "SourceId": "myProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\",
       "BasePath": "_content/myProject",
       "RelativePath": "css/user.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\css\\user.css"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\html\\user.html",
+      "Identity": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\html\\user.html",
       "SourceId": "myProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\",
       "BasePath": "_content/myProject",
       "RelativePath": "html/user.html",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\html\\user.html"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\index.html",
       "SourceId": "myProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\",
       "BasePath": "_content/myProject",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\js\\site.js",
       "SourceId": "myProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\",
       "BasePath": "_content/myProject",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\js\\users.js",
+      "Identity": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\js\\users.js",
       "SourceId": "myProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\",
       "BasePath": "_content/myProject",
       "RelativePath": "js/users.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\js\\users.js"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\login.html",
+      "Identity": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\login.html",
       "SourceId": "myProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות\\שנה ב\\core זילברברג\\ProjectDotnetCore\\myProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\1\\תוכניות\\OneDrive\\מסמכים\\GitHub\\ProjectInDotentCore\\myProject\\wwwroot\\",
       "BasePath": "_content/myProject",
       "RelativePath": "login.html",
       "AssetKind": "All",
