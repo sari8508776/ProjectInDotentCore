@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👥 User 👥</title>
+    <link rel="stylesheet" href="../css/user.css?v=2">
+</head>
+
+<body>
+
+    <h1>👥 User 👥</h1>
+
+    <h3>Add New User</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <label for="add-name">User Name:</label>
+        <input type="text" id="add-name" placeholder="New user" required>
+        <label for="add-age">Age:</label>
+        <input type="number" id="add-age" placeholder="Age" required>
+        <label for="add-gender">Gender:</label>
+        <select id="add-gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <label for="add-password">Password:</label>
+        <input type="password" id="add-password" placeholder="Password" required>
+        <input type="submit" value="Add User">
+    </form>
+
+    <div id="editForm">
+        <h3>Edit User</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input id="edit-id" type="hidden">
+            <label for="edit-name">Name:</label>
+            <input type="text" id="edit-name" required>
+            <label for="edit-age">Age:</label>
+            <input type="number" id="edit-age" required>
+            <label for="edit-gender">Gender:</label>
+            <select id="edit-gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <label for="edit-password">Password:</label>
+            <input type="password" id="edit-password" required>
+            <input type="submit" value="Save Changes">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Actions</th>
+        </tr>
+        <tbody id="user"></tbody>
+    </table>
+
+    <a href="../index.html">🍦 Back to Ice Cream </a>
+
+    <script src="../js/users.js?v=2"></script>
+    <script type="text/javascript">
+        if (!localStorage.getItem('token')) {
+            window.location.href = '../login.html';
+        } else {
+            getItems();
+        }
+    </script>
+
+</body>
+
+</html>

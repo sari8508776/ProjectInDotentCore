@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>🍦 Ice Cream  🍦</title>
+    <link rel="stylesheet" href="css/site.css?v=2" />
+</head>
+
+<body>
+    <div id="greeting"></div>
+    <h1>🍦 Ice Cream  🍦</h1>
+    <h3>➕ Add New Flavor</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <label for="add-name">Flavor Name:</label>
+        <input type="text" id="add-name" placeholder="e.g., Mint Chocolate Chip" required>
+        <label for="add-isVegan">
+            <input type="checkbox" id="add-isVegan"> 🌱 Vegan Flavor
+        </label>
+        <input type="submit" value="🎨 Add Flavor">
+    </form>
+
+    <div id="editForm">
+        <h3>✏️ Edit Flavor</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <label for="edit-name">Flavor Name:</label>
+            <input type="text" id="edit-name" required>
+            <label for="edit-isVegan">
+                <input type="checkbox" id="edit-isVegan"> 🌱 Vegan Flavor
+            </label>
+            <input type="submit" value="💾 Save Changes">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr style="text-align: center">
+            <th style="text-align: center">🌱 Vegan?</th>
+            <th style="text-align: center">Flavor Name</th>
+            <th style="text-align: center">Actions</th>
+
+        </tr>
+        <tbody id="products"></tbody>
+    </table>
+    <a href="html/user.html">👤 Go to Users</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.0/signalr.min.js" integrity="sha512-9Zp+bdndlWEHK/D+f16FVyykG5ftPXwwL58o9ptVu6CEahlO3zHd6Vh7VSOzxJ3BTbHgQo1hQZvV7DlsEQn2mg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/site.js?v=2"></script>
+    <script type="text/javascript">
+        if (!localStorage.getItem('token')) {
+            window.location.href = 'login.html';
+        } else {
+            const username = getUsername();
+            if (username) {
+                document.getElementById('greeting').textContent = '👋 Welcome, ' + username + '!';
+            }
+            document.addEventListener("DOMContentLoaded", function() {
+                getItems();
+                // start SignalR connection for real‑time updates
+                if (!window.iceCreamConnection) {
+                    const token = localStorage.getItem('token');
+                    window.iceCreamConnection = new signalR.HubConnectionBuilder()
+                        .withUrl('/icecreamHub', { accessTokenFactory: () => token })
+                        .build();
+
+                    window.iceCreamConnection.on('ReceiveActivity', (user, action, name) => {
+                        // if the notification originates from a different tab, reload the list
+                        console.log('signalr', user, action, name);
+                        getItems();
+                    });
+
+                    window.iceCreamConnection.start().catch(err => console.error(err.toString()));
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

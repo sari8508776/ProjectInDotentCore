@@ -1,0 +1,191 @@
+Z:\יד תשפו\וסרמן רות\זילברברג .net\myProject\obj\Debug\net8.0\myProject.csproj.AssemblyReference.cache
+Z:\יד תשפו\וסרמן רות\זילברברג .net\myProject\obj\Debug\net8.0\myProject.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפו\וסרמן רות\זילברברג .net\myProject\obj\Debug\net8.0\myProject.AssemblyInfoInputs.cache
+Z:\יד תשפו\וסרמן רות\זילברברג .net\myProject\obj\Debug\net8.0\myProject.AssemblyInfo.cs
+Z:\יד תשפו\וסרמן רות\זילברברג .net\myProject\obj\Debug\net8.0\myProject.csproj.CoreCompileInputs.cache
+Z:\יד תשפו\וסרמן רות\זילברברג .net\myProject\obj\Debug\net8.0\myProject.MvcApplicationPartsAssemblyInfo.cs
+Z:\יד תשפו\וסרמן רות\זילברברג .net\myProject\obj\Debug\net8.0\myProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.AssemblyInfo.cs
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\appsettings.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\Data\User.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\myProject.staticwebassets.runtime.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\myProject.staticwebassets.endpoints.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\myProject.exe
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\myProject.deps.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\myProject.runtimeconfig.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\myProject.dll
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\myProject.pdb
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\1\Desktop\תכנות לימודים\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\scopedcss\bundle\myProject.styles.css
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\staticwebassets\msbuild.myProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\staticwebassets\msbuild.myProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\staticwebassets\msbuild.build.myProject.props
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.myProject.props
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.myProject.props
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.csproj.Up2Date
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.dll
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\refint\myProject.dll
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.pdb
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\myProject.genruntimeconfig.cache
+C:\Users\1\Desktop\תכנות לימודים\myProject\obj\Debug\net8.0\ref\myProject.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\appsettings.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\myProject.staticwebassets.endpoints.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\myProject.staticwebassets.runtime.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\myProject.exe
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\myProject.deps.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\myProject.runtimeconfig.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\myProject.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\myProject.pdb
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.csproj.AssemblyReference.cache
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.AssemblyInfoInputs.cache
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.AssemblyInfo.cs
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.sourcelink.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\scopedcss\bundle\myProject.styles.css
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\staticwebassets\msbuild.myProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\staticwebassets\msbuild.myProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\staticwebassets\msbuild.build.myProject.props
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.myProject.props
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.myProject.props
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.csproj.Up2Date
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\refint\myProject.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.pdb
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\myProject.genruntimeconfig.cache
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\obj\Debug\net8.0\ref\myProject.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\1\Documents\GitHub\dotnet_core\myProject\bin\Debug\net8.0\Data\User.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\appsettings.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.staticwebassets.runtime.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.staticwebassets.endpoints.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.exe
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.deps.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.runtimeconfig.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.pdb
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.csproj.AssemblyReference.cache
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.AssemblyInfoInputs.cache
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.AssemblyInfo.cs
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\scopedcss\bundle\myProject.styles.css
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets\msbuild.myProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets\msbuild.myProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets\msbuild.build.myProject.props
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.myProject.props
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.myProject.props
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.csproj.Up2Date
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\refint\myProject.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.pdb
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.genruntimeconfig.cache
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\ref\myProject.dll
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.sourcelink.json
+C:\Users\1\Documents\GitHub\ProjectDotnetCore\myProject\bin\Debug\net8.0\Data\User.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\appsettings.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Data\User.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.staticwebassets.runtime.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.exe
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.deps.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.runtimeconfig.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\myProject.pdb
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.AssemblyInfo.cs
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.sourcelink.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets\msbuild.myProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets\msbuild.build.myProject.props
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.myProject.props
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.myProject.props
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\scopedcss\bundle\myProject.styles.css
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.csproj.Up2Date
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\refint\myProject.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.pdb
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\myProject.genruntimeconfig.cache
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\obj\Debug\net8.0\ref\myProject.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\1\Desktop\תכנות\שנה ב\core זילברברג\ProjectDotnetCore\myProject\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll

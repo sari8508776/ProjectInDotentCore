@@ -1,0 +1,2062 @@
+{
+  "Version": 1,
+  "Hash": "V43ILySFeSzhMLWljf66r/XRfGaqq8WjobJQAaHE8ps=",
+  "Source": "myProject",
+  "BasePath": "_content/myProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "myProject\\wwwroot",
+      "Source": "myProject",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\",
+      "BasePath": "_content/myProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\4msrsyda7u-fsxdwnxthl.gz",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "js/users#[.{fingerprint=fsxdwnxthl}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\js\\users.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ia4tnugnqx",
+      "Integrity": "+ino0j/FCYtrpiQiNFgIchmp52nSKU825lc64NE+sGo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\js\\users.js"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\cpo8tqd1fe-fez9qwy7ba.gz",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "css/site#[.{fingerprint=fez9qwy7ba}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y73iwto6js",
+      "Integrity": "zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\h80hx89cec-fez9qwy7ba.gz",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "css/user#[.{fingerprint=fez9qwy7ba}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\css\\user.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y73iwto6js",
+      "Integrity": "zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\css\\user.css"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\mp6080rv07-qvkmrmbdcw.gz",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "js/site#[.{fingerprint=qvkmrmbdcw}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\js\\site.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xh7xrgabpt",
+      "Integrity": "y8CZE48+NxTe9vx9zXrulwIPQ2+D+y7+dQMQli3ECvU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\p3evszhugg-zad2uj5gtb.gz",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "index#[.{fingerprint=zad2uj5gtb}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rzdx77hcvl",
+      "Integrity": "6UeMgFgknlTjE5K2IUs0yzTPN5tjnuxtGc2HI5E9A2s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\qzwrjiqaw5-1eqzdz7smj.gz",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "html/user#[.{fingerprint=1eqzdz7smj}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\html\\user.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "63ykztbyar",
+      "Integrity": "bk+Ljb/rhGn/WB61RcA8SBSt4RzWnf4YPJKJgSNfNHA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\html\\user.html"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\css\\site.css",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fez9qwy7ba",
+      "Integrity": "iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\css\\user.css",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "css/user#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fez9qwy7ba",
+      "Integrity": "iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\user.css"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\html\\user.html",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "html/user#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1eqzdz7smj",
+      "Integrity": "WXkFTVjk1thSMAmWWz3pRq2NP8ZOY70B78RsHIscNkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\user.html"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\index.html",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zad2uj5gtb",
+      "Integrity": "JfbKZJCsaf35f9sHhpwmvKDqrvshHoRhWD8BxvNz1ek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\js\\site.js",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qvkmrmbdcw",
+      "Integrity": "NhYJAfsrxIg3X9lFi1fUKouYv24fsZsuKDjsZYKaOgI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\js\\users.js",
+      "SourceId": "myProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\",
+      "BasePath": "_content/myProject",
+      "RelativePath": "js/users#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fsxdwnxthl",
+      "Integrity": "seeJ1t5OL6OsHnlb5DIcXgLix1KasZpXESGKvx0hRVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\users.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\cpo8tqd1fe-fez9qwy7ba.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003984063745"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 19:39:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 19:39:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\cpo8tqd1fe-fez9qwy7ba.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 19:39:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.fez9qwy7ba.css",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\cpo8tqd1fe-fez9qwy7ba.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003984063745"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 19:39:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fez9qwy7ba"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.fez9qwy7ba.css",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 19:39:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fez9qwy7ba"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.fez9qwy7ba.css.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\cpo8tqd1fe-fez9qwy7ba.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Nov 2025 19:39:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fez9qwy7ba"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk="
+        }
+      ]
+    },
+    {
+      "Route": "css/user.css",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\h80hx89cec-fez9qwy7ba.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003984063745"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:02:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk="
+        }
+      ]
+    },
+    {
+      "Route": "css/user.css",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\css\\user.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:02:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk="
+        }
+      ]
+    },
+    {
+      "Route": "css/user.css.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\h80hx89cec-fez9qwy7ba.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:02:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk="
+        }
+      ]
+    },
+    {
+      "Route": "css/user.fez9qwy7ba.css",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\h80hx89cec-fez9qwy7ba.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003984063745"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:02:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fez9qwy7ba"
+        },
+        {
+          "Name": "label",
+          "Value": "css/user.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk="
+        }
+      ]
+    },
+    {
+      "Route": "css/user.fez9qwy7ba.css",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\css\\user.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:02:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fez9qwy7ba"
+        },
+        {
+          "Name": "label",
+          "Value": "css/user.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSoDzUXIKjr0r4XvXco19w3RCuUWb1Xi43E2xoxxAkk="
+        }
+      ]
+    },
+    {
+      "Route": "css/user.fez9qwy7ba.css.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\h80hx89cec-fez9qwy7ba.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:02:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fez9qwy7ba"
+        },
+        {
+          "Name": "label",
+          "Value": "css/user.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zpRnhJ7v83lGK+oI9CENgmT92BcIbX/xAXBTWSsl8Sk="
+        }
+      ]
+    },
+    {
+      "Route": "html/user.1eqzdz7smj.html",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\qzwrjiqaw5-1eqzdz7smj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001550387597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bk+Ljb/rhGn/WB61RcA8SBSt4RzWnf4YPJKJgSNfNHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:03:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WXkFTVjk1thSMAmWWz3pRq2NP8ZOY70B78RsHIscNkY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1eqzdz7smj"
+        },
+        {
+          "Name": "label",
+          "Value": "html/user.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WXkFTVjk1thSMAmWWz3pRq2NP8ZOY70B78RsHIscNkY="
+        }
+      ]
+    },
+    {
+      "Route": "html/user.1eqzdz7smj.html",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\html\\user.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WXkFTVjk1thSMAmWWz3pRq2NP8ZOY70B78RsHIscNkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:03:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1eqzdz7smj"
+        },
+        {
+          "Name": "label",
+          "Value": "html/user.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WXkFTVjk1thSMAmWWz3pRq2NP8ZOY70B78RsHIscNkY="
+        }
+      ]
+    },
+    {
+      "Route": "html/user.1eqzdz7smj.html.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\qzwrjiqaw5-1eqzdz7smj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bk+Ljb/rhGn/WB61RcA8SBSt4RzWnf4YPJKJgSNfNHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:03:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1eqzdz7smj"
+        },
+        {
+          "Name": "label",
+          "Value": "html/user.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bk+Ljb/rhGn/WB61RcA8SBSt4RzWnf4YPJKJgSNfNHA="
+        }
+      ]
+    },
+    {
+      "Route": "html/user.html",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\qzwrjiqaw5-1eqzdz7smj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001550387597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bk+Ljb/rhGn/WB61RcA8SBSt4RzWnf4YPJKJgSNfNHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:03:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WXkFTVjk1thSMAmWWz3pRq2NP8ZOY70B78RsHIscNkY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WXkFTVjk1thSMAmWWz3pRq2NP8ZOY70B78RsHIscNkY="
+        }
+      ]
+    },
+    {
+      "Route": "html/user.html",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\html\\user.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WXkFTVjk1thSMAmWWz3pRq2NP8ZOY70B78RsHIscNkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:03:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WXkFTVjk1thSMAmWWz3pRq2NP8ZOY70B78RsHIscNkY="
+        }
+      ]
+    },
+    {
+      "Route": "html/user.html.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\qzwrjiqaw5-1eqzdz7smj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bk+Ljb/rhGn/WB61RcA8SBSt4RzWnf4YPJKJgSNfNHA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:03:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bk+Ljb/rhGn/WB61RcA8SBSt4RzWnf4YPJKJgSNfNHA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\p3evszhugg-zad2uj5gtb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001483679525"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "673"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6UeMgFgknlTjE5K2IUs0yzTPN5tjnuxtGc2HI5E9A2s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JfbKZJCsaf35f9sHhpwmvKDqrvshHoRhWD8BxvNz1ek=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JfbKZJCsaf35f9sHhpwmvKDqrvshHoRhWD8BxvNz1ek="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JfbKZJCsaf35f9sHhpwmvKDqrvshHoRhWD8BxvNz1ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JfbKZJCsaf35f9sHhpwmvKDqrvshHoRhWD8BxvNz1ek="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\p3evszhugg-zad2uj5gtb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6UeMgFgknlTjE5K2IUs0yzTPN5tjnuxtGc2HI5E9A2s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6UeMgFgknlTjE5K2IUs0yzTPN5tjnuxtGc2HI5E9A2s="
+        }
+      ]
+    },
+    {
+      "Route": "index.zad2uj5gtb.html",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\p3evszhugg-zad2uj5gtb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001483679525"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "673"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6UeMgFgknlTjE5K2IUs0yzTPN5tjnuxtGc2HI5E9A2s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JfbKZJCsaf35f9sHhpwmvKDqrvshHoRhWD8BxvNz1ek=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zad2uj5gtb"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JfbKZJCsaf35f9sHhpwmvKDqrvshHoRhWD8BxvNz1ek="
+        }
+      ]
+    },
+    {
+      "Route": "index.zad2uj5gtb.html",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JfbKZJCsaf35f9sHhpwmvKDqrvshHoRhWD8BxvNz1ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zad2uj5gtb"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JfbKZJCsaf35f9sHhpwmvKDqrvshHoRhWD8BxvNz1ek="
+        }
+      ]
+    },
+    {
+      "Route": "index.zad2uj5gtb.html.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\p3evszhugg-zad2uj5gtb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6UeMgFgknlTjE5K2IUs0yzTPN5tjnuxtGc2HI5E9A2s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:29:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zad2uj5gtb"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6UeMgFgknlTjE5K2IUs0yzTPN5tjnuxtGc2HI5E9A2s="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\mp6080rv07-qvkmrmbdcw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000949667616"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1052"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y8CZE48+NxTe9vx9zXrulwIPQ2+D+y7+dQMQli3ECvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:35:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NhYJAfsrxIg3X9lFi1fUKouYv24fsZsuKDjsZYKaOgI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NhYJAfsrxIg3X9lFi1fUKouYv24fsZsuKDjsZYKaOgI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NhYJAfsrxIg3X9lFi1fUKouYv24fsZsuKDjsZYKaOgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:35:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NhYJAfsrxIg3X9lFi1fUKouYv24fsZsuKDjsZYKaOgI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\mp6080rv07-qvkmrmbdcw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y8CZE48+NxTe9vx9zXrulwIPQ2+D+y7+dQMQli3ECvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:35:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y8CZE48+NxTe9vx9zXrulwIPQ2+D+y7+dQMQli3ECvU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.qvkmrmbdcw.js",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\mp6080rv07-qvkmrmbdcw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000949667616"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1052"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y8CZE48+NxTe9vx9zXrulwIPQ2+D+y7+dQMQli3ECvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:35:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NhYJAfsrxIg3X9lFi1fUKouYv24fsZsuKDjsZYKaOgI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qvkmrmbdcw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NhYJAfsrxIg3X9lFi1fUKouYv24fsZsuKDjsZYKaOgI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.qvkmrmbdcw.js",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NhYJAfsrxIg3X9lFi1fUKouYv24fsZsuKDjsZYKaOgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:35:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qvkmrmbdcw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NhYJAfsrxIg3X9lFi1fUKouYv24fsZsuKDjsZYKaOgI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.qvkmrmbdcw.js.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\mp6080rv07-qvkmrmbdcw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y8CZE48+NxTe9vx9zXrulwIPQ2+D+y7+dQMQli3ECvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:35:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qvkmrmbdcw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y8CZE48+NxTe9vx9zXrulwIPQ2+D+y7+dQMQli3ECvU="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.fsxdwnxthl.js",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\4msrsyda7u-fsxdwnxthl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000947867299"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+ino0j/FCYtrpiQiNFgIchmp52nSKU825lc64NE+sGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"seeJ1t5OL6OsHnlb5DIcXgLix1KasZpXESGKvx0hRVg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fsxdwnxthl"
+        },
+        {
+          "Name": "label",
+          "Value": "js/users.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-seeJ1t5OL6OsHnlb5DIcXgLix1KasZpXESGKvx0hRVg="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.fsxdwnxthl.js",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\js\\users.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"seeJ1t5OL6OsHnlb5DIcXgLix1KasZpXESGKvx0hRVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fsxdwnxthl"
+        },
+        {
+          "Name": "label",
+          "Value": "js/users.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-seeJ1t5OL6OsHnlb5DIcXgLix1KasZpXESGKvx0hRVg="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.fsxdwnxthl.js.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\4msrsyda7u-fsxdwnxthl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+ino0j/FCYtrpiQiNFgIchmp52nSKU825lc64NE+sGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fsxdwnxthl"
+        },
+        {
+          "Name": "label",
+          "Value": "js/users.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+ino0j/FCYtrpiQiNFgIchmp52nSKU825lc64NE+sGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.js",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\4msrsyda7u-fsxdwnxthl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000947867299"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+ino0j/FCYtrpiQiNFgIchmp52nSKU825lc64NE+sGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"seeJ1t5OL6OsHnlb5DIcXgLix1KasZpXESGKvx0hRVg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-seeJ1t5OL6OsHnlb5DIcXgLix1KasZpXESGKvx0hRVg="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.js",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\wwwroot\\js\\users.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"seeJ1t5OL6OsHnlb5DIcXgLix1KasZpXESGKvx0hRVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-seeJ1t5OL6OsHnlb5DIcXgLix1KasZpXESGKvx0hRVg="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.js.gz",
+      "AssetFile": "C:\\Users\\1\\Desktop\\תכנות לימודים\\myProject\\obj\\Debug\\net9.0\\compressed\\4msrsyda7u-fsxdwnxthl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+ino0j/FCYtrpiQiNFgIchmp52nSKU825lc64NE+sGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 19:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+ino0j/FCYtrpiQiNFgIchmp52nSKU825lc64NE+sGo="
+        }
+      ]
+    }
+  ]
+}
