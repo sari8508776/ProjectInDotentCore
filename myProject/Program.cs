@@ -34,6 +34,7 @@ builder.Services.AddAuthorization(cfg =>
         // );
         cfg.AddPolicy("ClearanceLevel2", policy => policy.RequireClaim("ClearanceLevel", "2"));
     });
+builder.Services.AddHttpContextAccessor();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddSwaggerGen(c =>
@@ -56,9 +57,9 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
+builder.Services.UseActiveUser();
+
 var app = builder.Build();
-// app.UseMyLogMiddleware();
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

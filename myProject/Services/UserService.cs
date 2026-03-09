@@ -25,8 +25,7 @@ public class UserService : IUserService
             new User { Id = 2, Name = "Tamer Rotan", Age = 21, Gender = "female", Password = "password2"},
             new User { Id = 4, Name = "Yahakov Cohen", Age = 13, Gender = "male", Password = "password3"},
             new User { Id = 3, Name = "Beni Levi", Age = 23, Gender = "male", Password = "password4"},
-            new User { Id = 5, Name = "admin", Age = 25, Gender = "male", Password = "admin"},
-            new User { Id = 6, Name = "user", Age = 22, Gender = "female", Password = "user"}
+            
         };
     }
 
