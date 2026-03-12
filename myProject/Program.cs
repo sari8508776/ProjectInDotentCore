@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+
 // register all project services (ice cream, user, active-user, SignalR)
 builder.Services.AddProjectServices();
 
@@ -57,7 +58,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-builder.Services.UseActiveUser();
+// UseActiveUser is already called by AddProjectServices()
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
