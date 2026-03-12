@@ -8,8 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddIceCream();
-builder.Services.addUserService();
+// register all project services (ice cream, user, active-user, SignalR)
+builder.Services.AddProjectServices();
 
 // Add authentication
 builder.Services
@@ -20,7 +20,7 @@ builder.Services
     .AddJwtBearer(cfg =>
     {
         cfg.RequireHttpsMetadata = false;
-    cfg.TokenValidationParameters = UserTokenService.GetTokenValidationParameters();
+        cfg.TokenValidationParameters = UserTokenService.GetTokenValidationParameters();
     });
 
 builder.Services.AddAuthorization(cfg =>
