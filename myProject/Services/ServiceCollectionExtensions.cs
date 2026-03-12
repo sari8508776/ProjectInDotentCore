@@ -17,6 +17,8 @@ namespace myProject.Services
 
             // SignalR registration (idempotent if called elsewhere)
             services.AddSignalR();
+            // activity repository (renamed)
+            services.AddSingleton<IActivityRepository, ActivityRepository>();
 
             return services;
         }

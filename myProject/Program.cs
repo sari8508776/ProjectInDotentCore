@@ -22,6 +22,22 @@ builder.Services
     {
         cfg.RequireHttpsMetadata = false;
         cfg.TokenValidationParameters = UserTokenService.GetTokenValidationParameters();
+
+        // allow SignalR websocket connections to send access_token as query string
+        cfg.Events = new Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                var accessToken = context.Request.Query["access_token"].ToString();
+                var path = context.HttpContext?.Request?.Path;
+                var pathValue = path.HasValue ? path.Value.ToString() : string.Empty;
+                if (!string.IsNullOrEmpty(accessToken) && !string.IsNullOrEmpty(pathValue) && pathValue.StartsWith("/activityHub", System.StringComparison.OrdinalIgnoreCase))
+                {
+                    context.Token = accessToken;
+                }
+                return System.Threading.Tasks.Task.CompletedTask;
+            }
+        };
     });
 
 builder.Services.AddAuthorization(cfg =>
@@ -81,5 +97,8 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// Map ActivityHub at /activityHub (KS Pizza uses /activityHub)
+app.MapHub<myProject.Hubs.ActivityHub>("/activityHub");
 
 app.Run();

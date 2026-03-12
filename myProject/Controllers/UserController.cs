@@ -15,11 +15,13 @@ public class UserController : ControllerBase
 {
     IUserService userService;
     private readonly myProject.Interfaces.IIceCreamService _iceCreamService;
+    private readonly myProject.Services.IActivityRepository _activityRepository;
 
-    public UserController(IUserService userService, myProject.Interfaces.IIceCreamService iceCreamService)
+    public UserController(IUserService userService, myProject.Interfaces.IIceCreamService iceCreamService, myProject.Services.IActivityRepository activityRepository)
     {
         this.userService = userService;
         this._iceCreamService = iceCreamService;
+        _activityRepository = activityRepository;
     }
 
     [HttpGet("me")]
@@ -51,18 +53,20 @@ public class UserController : ControllerBase
 
     [HttpPost]
     [Authorize(Policy = "Admin")]
-    public ActionResult Create(User newUser)
+    public async System.Threading.Tasks.Task<ActionResult> Create(User newUser)
     {
         var postedUser = userService.Create(newUser);
+        var username = User.FindFirst("username")?.Value ?? "system";
+        await _activityRepository.BroadcastAsync(username, "created", postedUser.Name);
         return CreatedAtAction(nameof(Get), new { id = postedUser.Id }, postedUser);
     }
 
     [HttpPut("{id}")]
-    public ActionResult Update(int id, User newUser)
+    public async System.Threading.Tasks.Task<ActionResult> Update(int id, User newUser)
     {
         var currentUserId = int.Parse(User.FindFirst("userid")?.Value ?? "0");
         var isAdmin = User.FindFirst("usertype")?.Value == "Admin";
-        
+
         if (currentUserId != id && !isAdmin)
             return Forbid();
 
@@ -72,12 +76,14 @@ public class UserController : ControllerBase
         newUser.Id = id;
         if (!userService.Update(id, newUser))
             return BadRequest();
+        var username = User.FindFirst("username")?.Value ?? "system";
+        await _activityRepository.BroadcastAsync(username, "updated", newUser.Name);
         return Ok(newUser);
     }
 
     [HttpDelete("{id}")]
     [Authorize(Policy = "Admin")]
-    public ActionResult Delete(int id)
+    public async System.Threading.Tasks.Task<ActionResult> Delete(int id)
     {
         var user = userService.find(id);
         if (user == null)
@@ -95,6 +101,8 @@ public class UserController : ControllerBase
 
         if (!userService.Delete(id))
             return NotFound();
+        var username = User.FindFirst("username")?.Value ?? "system";
+        await _activityRepository.BroadcastAsync(username, "deleted", user.Name);
         return Ok(user);
     }
 
@@ -111,18 +119,18 @@ public class UserController : ControllerBase
         }
         if (user == null)
             return Unauthorized();
-        
+
         // קביעת usertype לפי שם המשתמש (Admin או User)
         var userType = user.Name == "admin" || user.Name == "sari Rabinovitch" ? "Admin" : "User";
-        
+
         var claims = new List<Claim>
         {
             new Claim("username", user.Name),
             new Claim("userid", user.Id.ToString()),
             new Claim("usertype", userType)
         };
-    var token = UserTokenService.GetToken(claims);
-    var tokenString = UserTokenService.WriteToken(token);
+        var token = UserTokenService.GetToken(claims);
+        var tokenString = UserTokenService.WriteToken(token);
         return Ok(new { token = tokenString });
     }
 

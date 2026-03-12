@@ -3,17 +3,20 @@ using System;
 using myProject.Interfaces;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.SignalR;
+using myProject.Hubs;
+using Microsoft.AspNetCore.Http;
 
 namespace myProject.Services;
 
 public class IceCreamService : IIceCreamService
 
 {
-    private  List<IceCream> list;
+    private List<IceCream> list;
 
-    public  IceCreamService()
+    public IceCreamService()
     {
-           list = new List<IceCream>
+        list = new List<IceCream>
         {
             new IceCream { Id = 1, Name = "Vanilla Dream", IsVegan = false, UserId = 1},
             new IceCream { Id = 2, Name = "Strawberry Bliss", IsVegan = true, UserId = 1},
@@ -22,7 +25,7 @@ public class IceCreamService : IIceCreamService
             new IceCream { Id = 5, Name = "Cookies and Cream", IsVegan = false, UserId = 6}
         };
     }
-  
+
 
     public List<IceCream> Get()
     {
@@ -42,6 +45,8 @@ public class IceCreamService : IIceCreamService
         var maxId = list.Max(p => p.Id);
         newIceCream.Id = maxId + 1;
         list.Add(newIceCream);
+        var username = "system"; // Default username since we are removing HttpContext dependency
+        // _ = _repository.BroadcastAsync(username, "created", newIceCream.Name); // Broadcasting removed
         return newIceCream;
     }
 
@@ -55,7 +60,8 @@ public class IceCreamService : IIceCreamService
 
         var index = list.IndexOf(iceCream);
         list[index] = newIceCream;
-
+        // var username = _httpContextAccessor?.HttpContext?.User?.FindFirst("username")?.Value ?? "system"; // Broadcasting removed
+        // _ = _repository.BroadcastAsync(username, "updated", newIceCream.Name); // Broadcasting removed
         return true;
     }
 
@@ -65,22 +71,24 @@ public class IceCreamService : IIceCreamService
         if (iceCream == null)
             return false;
         list.Remove(iceCream);
+        // var username = _httpContextAccessor?.HttpContext?.User?.FindFirst("username")?.Value ?? "system"; // Broadcasting removed
+        // _ = _repository.BroadcastAsync(username, "deleted", iceCream.Name); // Broadcasting removed
         return true;
     }
-    
+
     // delete all ice creams for given user id
     public void DeleteByUserId(int userId)
     {
         list.RemoveAll(ic => ic.UserId == userId);
     }
-      
+
 }
 
 public static class IceCreamExtension
+{
+    public static void AddIceCream(this IServiceCollection services)
     {
-    public   static void AddIceCream(this IServiceCollection services)
-        {
-            services.AddSingleton<IIceCreamService,IceCreamService>();          
-        }
+        services.AddSingleton<IIceCreamService, IceCreamService>();
     }
+}
 

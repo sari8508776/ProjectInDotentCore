@@ -9,6 +9,8 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using myProject.Services;
 
 namespace myProject;
 
@@ -16,7 +18,7 @@ public class UserService : IUserService
 {
     private List<User> Users;
     private string filePath;
-    
+
     private List<User> GetDefaultUsers()
     {
         return new List<User>
@@ -25,17 +27,17 @@ public class UserService : IUserService
             new User { Id = 2, Name = "Tamer Rotan", Age = 21, Gender = "female", Password = "password2"},
             new User { Id = 4, Name = "Yahakov Cohen", Age = 13, Gender = "male", Password = "password3"},
             new User { Id = 3, Name = "Beni Levi", Age = 23, Gender = "male", Password = "password4"},
-            
+
         };
     }
 
     public UserService(IWebHostEnvironment webHost)
     {
         this.filePath = Path.Combine(webHost.ContentRootPath, "Data", "User.json");
-        
+
         // תמיד התחל עם ברירות המחדל
         Users = GetDefaultUsers();
-        
+
         // אם יש קובץ עם נתונים, נטען אותו
         if (File.Exists(filePath))
         {
@@ -51,7 +53,7 @@ public class UserService : IUserService
                         {
                             PropertyNameCaseInsensitive = true
                         });
-                        
+
                         if (loadedUsers != null && loadedUsers.Count > 0)
                         {
                             Users = loadedUsers;
@@ -65,7 +67,7 @@ public class UserService : IUserService
                 Users = GetDefaultUsers();
             }
         }
-        
+
         // תמיד שמור את הנתונים כך שיהיו מעודכנים
         saveToFile();
     }
@@ -96,6 +98,7 @@ public class UserService : IUserService
         Users.Add(newUser);
         saveToFile();
 
+        // broadcasting moved to controller to use the request's user context
         return newUser;
     }
 
@@ -108,7 +111,7 @@ public class UserService : IUserService
         var index = Users.IndexOf(user);
         Users[index] = newUser;
         saveToFile();
-
+        // broadcasting moved to controller to use the request's user context
         return true;
     }
 
@@ -120,7 +123,7 @@ public class UserService : IUserService
 
         Users.Remove(user);
         saveToFile();
-
+        // broadcasting moved to controller to use the request's user context
         return true;
     }
 

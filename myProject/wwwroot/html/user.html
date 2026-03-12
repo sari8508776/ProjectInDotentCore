@@ -71,11 +71,13 @@
     <a href="../index.html">🍦 Back to Ice Cream </a>
 
     <script src="../js/users.js?v=2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <script src="../js/notifications.js?v=1"></script>
     <script type="text/javascript">
-        const username = (function(){
+        const username = (function () {
             const token = localStorage.getItem('token');
             if (!token) return null;
-            try { return JSON.parse(atob(token.split('.')[1])).username; } catch(e){ return null; }
+            try { return JSON.parse(atob(token.split('.')[1])).username; } catch (e) { return null; }
         })();
         const loginLink = document.getElementById('loginLink');
         const logoutLink = document.getElementById('logoutLink');
@@ -86,7 +88,7 @@
             loginLink.style.display = 'inline';
             logoutLink.style.display = 'none';
         }
-        logoutLink.addEventListener('click', function(e){ e.preventDefault(); localStorage.removeItem('token'); window.location.href = '../login.html'; });
+        logoutLink.addEventListener('click', function (e) { e.preventDefault(); localStorage.removeItem('token'); window.location.href = '../login.html'; });
 
         if (!localStorage.getItem('token')) {
             window.location.href = '../login.html';
