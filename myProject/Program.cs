@@ -3,6 +3,7 @@ using myProject;
 using myProject.Services;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -101,7 +102,6 @@ app.UseMyLogMiddleware();
 
 app.MapControllers();
 
-// Map ActivityHub at /activityHub (KS Pizza uses /activityHub)
 app.MapHub<myProject.Hubs.ActivityHub>("/activityHub");
 
 app.Run();

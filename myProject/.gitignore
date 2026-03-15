@@ -7,17 +7,13 @@ publish/
 *.user
 *.userosscache
 *.sln.docstates
+*.suo
 
 .vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
 
 .DS_Store
 Thumbs.db

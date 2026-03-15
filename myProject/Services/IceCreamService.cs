@@ -13,22 +13,72 @@ public class IceCreamService : IIceCreamService
 
 {
     private List<IceCream> list;
+    private string filePath;
 
-    public IceCreamService()
+ private List<IceCream> GetDefaultIceCreams(){
+    return new List<IceCream>
+    
     {
-        list = new List<IceCream>
-        {
             new IceCream { Id = 1, Name = "Vanilla Dream", IsVegan = false, UserId = 1},
             new IceCream { Id = 2, Name = "Strawberry Bliss", IsVegan = true, UserId = 1},
             new IceCream { Id = 3, Name = "Chocolate Delight", IsVegan = false, UserId = 2},
             new IceCream { Id = 4, Name = "Mint Chocolate Chip", IsVegan = false, UserId = 5},
             new IceCream { Id = 5, Name = "Cookies and Cream", IsVegan = false, UserId = 6}
         };
+ }
+ 
+    public IceCreamService(IWebHostEnvironment webHost)
+    {
+       this.filePath = Path.Combine(webHost.ContentRootPath, "Data", "icecreams.json");
+
+        list = GetDefaultIceCreams();
+
+        if (File.Exists(filePath))
+        {
+            try
+            {
+                using (var jsonFile = File.OpenText(filePath))
+                {
+                    var content = jsonFile.ReadToEnd();
+                    if (!string.IsNullOrWhiteSpace(content) && content != "[]")
+                    {
+                        var loadedUsers = JsonSerializer.Deserialize<List<IceCream>>(content,
+                        new JsonSerializerOptions
+                        {
+                            PropertyNameCaseInsensitive = true
+                        });
+
+                        if (loadedUsers != null && loadedUsers.Count > 0)
+                        {
+                            list = loadedUsers;
+                        }
+                    }
+                }
+            }
+            catch
+            {
+                // אם יש שגיאה בטעינה, נשתמש בברירות המחדל
+                list = GetDefaultIceCreams();
+            }
+        }
+
+        // תמיד שמור את הנתונים כך שיהיו מעודכנים
+        saveToFile();
+    
+
+        
+    }
+
+    private void saveToFile()
+    {
+        var text = JsonSerializer.Serialize(list);
+        File.WriteAllText(filePath, text);
     }
 
 
     public List<IceCream> Get()
     {
+        saveToFile();
         return list;
     }
 
@@ -45,8 +95,7 @@ public class IceCreamService : IIceCreamService
         var maxId = list.Max(p => p.Id);
         newIceCream.Id = maxId + 1;
         list.Add(newIceCream);
-        var username = "system"; // Default username since we are removing HttpContext dependency
-        // _ = _repository.BroadcastAsync(username, "created", newIceCream.Name); // Broadcasting removed
+       saveToFile();
         return newIceCream;
     }
 
@@ -60,8 +109,7 @@ public class IceCreamService : IIceCreamService
 
         var index = list.IndexOf(iceCream);
         list[index] = newIceCream;
-        // var username = _httpContextAccessor?.HttpContext?.User?.FindFirst("username")?.Value ?? "system"; // Broadcasting removed
-        // _ = _repository.BroadcastAsync(username, "updated", newIceCream.Name); // Broadcasting removed
+        saveToFile();
         return true;
     }
 
@@ -71,16 +119,11 @@ public class IceCreamService : IIceCreamService
         if (iceCream == null)
             return false;
         list.Remove(iceCream);
-        // var username = _httpContextAccessor?.HttpContext?.User?.FindFirst("username")?.Value ?? "system"; // Broadcasting removed
-        // _ = _repository.BroadcastAsync(username, "deleted", iceCream.Name); // Broadcasting removed
+        saveToFile();
         return true;
     }
 
-    // delete all ice creams for given user id
-    public void DeleteByUserId(int userId)
-    {
-        list.RemoveAll(ic => ic.UserId == userId);
-    }
+   
 
 }
 

@@ -1,7 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace myProject;
 
@@ -13,53 +12,31 @@ public class MyLogMiddleware
     {
         this.next = next;
     }
-public async Task Invoke(HttpContext c)
-{
-    var sw = Stopwatch.StartNew();
-    var startTime = DateTime.Now;
 
-    await next.Invoke(c); 
+    public async Task Invoke(HttpContext c)
+    {
+        var sw = Stopwatch.StartNew();
+        var startTime = DateTime.Now;
 
-    sw.Stop();
-    var endpoint = c.GetEndpoint();
-    var actionDescriptor = endpoint?.Metadata.GetMetadata<Microsoft.AspNetCore.Mvc.Abstractions.ActionDescriptor>();
-    var controller = actionDescriptor?.RouteValues["controller"] ?? "unknown";
-    var action = actionDescriptor?.RouteValues["action"] ?? c.Request.Method;
+        await next.Invoke(c); 
 
-   
-    string? userName = c.User?.FindFirst("userId")?.Value 
-                       ?? c.User?.Identity?.Name;
+        sw.Stop();
 
-
-    // שליחה לתור
-    var queue = c.RequestServices.GetRequiredService<LogQueue>();
-    await queue.WriteLogAsync(new LogEntry(startTime, controller, action, userName, sw.ElapsedMilliseconds));
-}
-    // public async Task Invoke(HttpContext c)
-    // {
-    //     var sw = Stopwatch.StartNew();
-    //     var startTime = DateTime.Now;
-
-    //     await next.Invoke(c); 
-
-    //     sw.Stop();
-
-    //     // שליפת נתוני הניתוב
-    //     var routeData = c.GetRouteData();
-    //     var controller = routeData.Values["controller"]?.ToString() ?? "Unknown";
-    //     var action = routeData.Values["action"]?.ToString() ?? "Unknown";
+        var endpoint = c.GetEndpoint();
+        var routeValues = endpoint?.Metadata.GetMetadata<Microsoft.AspNetCore.Mvc.Abstractions.ActionDescriptor>()?.RouteValues;
         
-    //     // שליפת המשתמש
-    //     var user = c.User?.FindFirst("userId")?.Value ?? "unknown"; 
+        var controller = routeValues?["controller"]?.ToString() ?? "StaticFile";
+        var action = routeValues?["action"]?.ToString() ?? c.Request.Method;
+        var userName = c.User?.Identity?.Name 
+                        ?? c.User?.FindFirst("username")?.Value 
+                        ?? "Guest";
 
-    //     // הזרקת התור מתוך ה-RequestServices
-    //     var queue = c.RequestServices.GetRequiredService<LogQueue>();
-        
-    //     // שליחת הלוג לתור
-    //     await queue.WriteLogAsync(new LogEntry(startTime, controller, action, user, sw.ElapsedMilliseconds));
-    // }
+        var queue = c.RequestServices.GetRequiredService<LogQueue>();
+        await queue.WriteLogAsync(new LogEntry(startTime, controller!, action!, userName, sw.ElapsedMilliseconds));
+    }
 }
 
+// זה החלק שהיה חסר או כפול וגרם לשגיאה
 public static partial class MiddlewareExtensions
 {
     public static IApplicationBuilder UseMyLogMiddleware(this IApplicationBuilder builder)

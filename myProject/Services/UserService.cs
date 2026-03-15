@@ -35,10 +35,8 @@ public class UserService : IUserService
     {
         this.filePath = Path.Combine(webHost.ContentRootPath, "Data", "User.json");
 
-        // תמיד התחל עם ברירות המחדל
         Users = GetDefaultUsers();
 
-        // אם יש קובץ עם נתונים, נטען אותו
         if (File.Exists(filePath))
         {
             try
@@ -63,12 +61,10 @@ public class UserService : IUserService
             }
             catch
             {
-                // אם יש שגיאה בטעינה, נשתמש בברירות המחדל
                 Users = GetDefaultUsers();
             }
         }
 
-        // תמיד שמור את הנתונים כך שיהיו מעודכנים
         saveToFile();
     }
 
@@ -98,7 +94,6 @@ public class UserService : IUserService
         Users.Add(newUser);
         saveToFile();
 
-        // broadcasting moved to controller to use the request's user context
         return newUser;
     }
 
@@ -111,7 +106,6 @@ public class UserService : IUserService
         var index = Users.IndexOf(user);
         Users[index] = newUser;
         saveToFile();
-        // broadcasting moved to controller to use the request's user context
         return true;
     }
 
@@ -123,7 +117,6 @@ public class UserService : IUserService
 
         Users.Remove(user);
         saveToFile();
-        // broadcasting moved to controller to use the request's user context
         return true;
     }
 
