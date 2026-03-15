@@ -1,27 +1,63 @@
 using System.Diagnostics;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace myProject;
+
 public class MyLogMiddleware
 {
     private readonly RequestDelegate next;
-    private readonly ILogger logger;
 
-
-    public MyLogMiddleware(RequestDelegate next, ILogger<MyLogMiddleware> logger)
+    public MyLogMiddleware(RequestDelegate next)
     {
         this.next = next;
-        this.logger = logger;
     }
+public async Task Invoke(HttpContext c)
+{
+    var sw = Stopwatch.StartNew();
+    var startTime = DateTime.Now;
 
-    public async Task Invoke(HttpContext c)
-    {
-        var sw = new Stopwatch();
-        sw.Start();
-        await next.Invoke(c);
-        logger.LogInformation($"{c.Request.Path}.{c.Request.Method} took {sw.ElapsedMilliseconds}ms."
-            + $" User: {c.User?.FindFirst("userId")?.Value ?? "unknown"}");
+    await next.Invoke(c); 
+
+    sw.Stop();
+    var endpoint = c.GetEndpoint();
+    var actionDescriptor = endpoint?.Metadata.GetMetadata<Microsoft.AspNetCore.Mvc.Abstractions.ActionDescriptor>();
+    var controller = actionDescriptor?.RouteValues["controller"] ?? "unknown";
+    var action = actionDescriptor?.RouteValues["action"] ?? c.Request.Method;
+
+   
+    string? userName = c.User?.FindFirst("userId")?.Value 
+                       ?? c.User?.Identity?.Name;
+
+
+    // שליחה לתור
+    var queue = c.RequestServices.GetRequiredService<LogQueue>();
+    await queue.WriteLogAsync(new LogEntry(startTime, controller, action, userName, sw.ElapsedMilliseconds));
+}
+    // public async Task Invoke(HttpContext c)
+    // {
+    //     var sw = Stopwatch.StartNew();
+    //     var startTime = DateTime.Now;
+
+    //     await next.Invoke(c); 
+
+    //     sw.Stop();
+
+    //     // שליפת נתוני הניתוב
+    //     var routeData = c.GetRouteData();
+    //     var controller = routeData.Values["controller"]?.ToString() ?? "Unknown";
+    //     var action = routeData.Values["action"]?.ToString() ?? "Unknown";
         
-    }
+    //     // שליפת המשתמש
+    //     var user = c.User?.FindFirst("userId")?.Value ?? "unknown"; 
+
+    //     // הזרקת התור מתוך ה-RequestServices
+    //     var queue = c.RequestServices.GetRequiredService<LogQueue>();
+        
+    //     // שליחת הלוג לתור
+    //     await queue.WriteLogAsync(new LogEntry(startTime, controller, action, user, sw.ElapsedMilliseconds));
+    // }
 }
 
 public static partial class MiddlewareExtensions
@@ -31,4 +67,3 @@ public static partial class MiddlewareExtensions
         return builder.UseMiddleware<MyLogMiddleware>();
     }
 }
-

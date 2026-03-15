@@ -74,8 +74,9 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// UseActiveUser is already called by AddProjectServices()
+builder.Services.AddSingleton<LogQueue>();
 
+builder.Services.AddHostedService<LogBackgroundWorker>();
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
@@ -95,6 +96,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseMyLogMiddleware();
 
 app.MapControllers();
 
