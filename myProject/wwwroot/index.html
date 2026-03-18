@@ -60,7 +60,9 @@
             window.location.href = 'login.html';
         } else {
             const payload = JSON.parse(atob(localStorage.getItem('token').split('.')[1]));
-            if (payload && payload.usertype === 'Admin') {
+            // Allow any authenticated user (not only Admin) to open the Users page.
+            // The users page itself restricts the data shown to non-admins (it will fetch /api/User/me).
+            if (payload) {
                 document.getElementById('usersLink').style.display = 'inline';
             }
 

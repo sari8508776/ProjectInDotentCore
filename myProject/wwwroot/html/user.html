@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <h3> Add New User</h3>
+    <h3 id="addUserHeader"> Add New User</h3>
     <form id="addUserForm" action="javascript:void(0);" method="POST" onsubmit="addItem()">
         <label for="add-name">User Name:</label>
         <input type="text" id="add-name" placeholder="New user" required>
@@ -74,11 +74,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
     <script src="../js/notifications.js?v=1"></script>
     <script type="text/javascript">
-        const username = (function () {
+        const payload = (function () {
             const token = localStorage.getItem('token');
             if (!token) return null;
-            try { return JSON.parse(atob(token.split('.')[1])).username; } catch (e) { return null; }
+            try { return JSON.parse(atob(token.split('.')[1])); } catch (e) { return null; }
         })();
+        const username = payload ? payload.username : null;
         const loginLink = document.getElementById('loginLink');
         const logoutLink = document.getElementById('logoutLink');
         if (username) {
@@ -89,6 +90,12 @@
             logoutLink.style.display = 'none';
         }
         logoutLink.addEventListener('click', function (e) { e.preventDefault(); localStorage.removeItem('token'); window.location.href = '../login.html'; });
+
+        // hide the add-user header for non-admin users
+        const addHeader = document.getElementById('addUserHeader');
+        if (addHeader && (!payload || payload.usertype !== 'Admin')) {
+            addHeader.style.display = 'none';
+        }
 
         if (!localStorage.getItem('token')) {
             window.location.href = '../login.html';

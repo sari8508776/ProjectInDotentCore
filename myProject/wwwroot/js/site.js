@@ -24,77 +24,77 @@ function getUsername() {
     }
 }
 
-// function getItems() {
-//     fetch(uri, {
-//         headers: getHeaders()
-//     })
-//         .then(response => {
-//             if (!response.ok) {
-//                 if (response.status === 401) {
-//                     localStorage.removeItem('token');
-//                     window.location.href = 'login.html';
-//                     return;
-//                 }
-//                 throw new Error('HTTP error ' + response.status);
-//             }
-//             return response.json();
-//         })
-//         .then(data => _displayItems(data))
-//         .catch(error => console.error('Unable to get items.', error));
-// }
+function getItems() {
+    fetch(uri, {
+        headers: getHeaders()
+    })
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 401) {
+                    localStorage.removeItem('token');
+                    window.location.href = 'login.html';
+                    return;
+                }
+                throw new Error('HTTP error ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => _displayItems(data))
+        .catch(error => console.error('Unable to get items.', error));
+}
 
-// function addItem() {
-//     const addNameTextbox = document.getElementById('add-name');
-//     const addIsVegan = document.getElementById('add-isVegan').checked;
+function addItem() {
+    const addNameTextbox = document.getElementById('add-name');
+    const addIsVegan = document.getElementById('add-isVegan').checked;
 
-//     const item = {
-//         isVegan: addIsVegan,
-//         name: addNameTextbox.value.trim()
-//     };
+    const item = {
+        isVegan: addIsVegan,
+        name: addNameTextbox.value.trim()
+    };
 
-//     fetch(uri, {
-//             method: 'POST',
-//             headers: getHeaders(),
-//             body: JSON.stringify(item)
-//         })
-//         .then(response => {
-//             if (!response.ok) {
-//                 if (response.status === 401) {
-//                     localStorage.removeItem('token');
-//                     window.location.href = 'login.html';
-//                     return;
-//                 }
-//                 throw new Error('Network response was not ok');
-//             }
-//             return response.json();
-//         })
-//         .then(() => {
-//             getItems();
-//             addNameTextbox.value = '';
-//             document.getElementById('add-isVegan').checked = false;
-//         })
-//         .catch(error => console.error('Unable to add item.', error));
-// }
+    fetch(uri, {
+            method: 'POST',
+            headers: getHeaders(),
+            body: JSON.stringify(item)
+        })
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 401) {
+                    localStorage.removeItem('token');
+                    window.location.href = 'login.html';
+                    return;
+                }
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(() => {
+            getItems();
+            addNameTextbox.value = '';
+            document.getElementById('add-isVegan').checked = false;
+        })
+        .catch(error => console.error('Unable to add item.', error));
+}
 
-// function deleteItem(id) {
-//     fetch(`${uri}/${id}`, {
-//             method: 'DELETE',
-//             headers: getHeaders()
-//         })
-//         .then(response => {
-//             if (!response.ok) {
-//                 if (response.status === 401) {
-//                     localStorage.removeItem('token');
-//                     window.location.href = 'login.html';
-//                     return;
-//                 }
-//                 throw new Error('HTTP error ' + response.status);
-//             }
-//             return response;
-//         })
-//         .then(() => getItems())
-//         .catch(error => console.error('Unable to delete user.', error));
-// }
+function deleteItem(id) {
+    fetch(`${uri}/${id}`, {
+            method: 'DELETE',
+            headers: getHeaders()
+        })
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 401) {
+                    localStorage.removeItem('token');
+                    window.location.href = 'login.html';
+                    return;
+                }
+                throw new Error('HTTP error ' + response.status);
+            }
+            return response;
+        })
+        .then(() => getItems())
+        .catch(error => console.error('Unable to delete user.', error));
+}
 function addItem() {
     const addNameTextbox = document.getElementById('add-name');
     const item = {
