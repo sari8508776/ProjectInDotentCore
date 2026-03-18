@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using myProject.Interfaces;
 using myProject.Services;
 
 namespace myProject.Services
@@ -7,12 +8,13 @@ namespace myProject.Services
     {
         public static IServiceCollection AddProjectServices(this IServiceCollection services)
         {
-            // keep using existing extension points
-            services.AddIceCream();
-            services.addUserService();
+            services.AddSingleton<IIceCreamService, IceCreamService>();
+            services.AddSingleton<IUserService, UserService>();
+            services.AddHttpContextAccessor();
             services.UseActiveUser();
             services.AddSignalR();
             services.AddSingleton<IActivityRepository, ActivityRepository>();
+            
             return services;
         }
     }

@@ -1,0 +1,367 @@
+2026-03-18 01:06:23.191 +02:00 [INF] User profile is available. Using 'C:\Users\1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-18 01:06:23.751 +02:00 [INF] Now listening on: http://localhost:5207
+2026-03-18 01:06:23.752 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-18 01:06:23.753 +02:00 [INF] Hosting environment: Development
+2026-03-18 01:06:23.753 +02:00 [INF] Content root path: C:\Users\1\Desktop\תכנות\שנה ב\New folder\ProjectInDotentCore\myProject
+2026-03-18 01:08:00.752 +02:00 [INF] Application is shutting down...
+2026-03-18 01:08:03.626 +02:00 [INF] User profile is available. Using 'C:\Users\1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-18 01:08:03.681 +02:00 [INF] Now listening on: http://localhost:5207
+2026-03-18 01:08:03.682 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-18 01:08:03.683 +02:00 [INF] Hosting environment: Development
+2026-03-18 01:08:03.683 +02:00 [INF] Content root path: C:\Users\1\Desktop\תכנות\שנה ב\New folder\ProjectInDotentCore\myProject
+2026-03-18 01:11:20.743 +02:00 [INF] User profile is available. Using 'C:\Users\1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-18 01:11:20.847 +02:00 [INF] Now listening on: http://localhost:5207
+2026-03-18 01:11:20.849 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-18 01:11:20.850 +02:00 [INF] Hosting environment: Development
+2026-03-18 01:11:20.850 +02:00 [INF] Content root path: C:\Users\1\Desktop\תכנות\שנה ב\New folder\ProjectInDotentCore\myProject
+2026-03-18 01:16:13.617 +02:00 [INF] Application is shutting down...
+2026-03-18 01:16:17.149 +02:00 [INF] User profile is available. Using 'C:\Users\1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-18 01:16:17.203 +02:00 [INF] Now listening on: http://localhost:5207
+2026-03-18 01:16:17.205 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-18 01:16:17.205 +02:00 [INF] Hosting environment: Development
+2026-03-18 01:16:17.205 +02:00 [INF] Content root path: C:\Users\1\Desktop\תכנות\שנה ב\New folder\ProjectInDotentCore\myProject
+2026-03-18 01:21:22.719 +02:00 [INF] Application is shutting down...
+2026-03-18 01:21:28.824 +02:00 [INF] User profile is available. Using 'C:\Users\1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-18 01:21:28.879 +02:00 [INF] Now listening on: http://localhost:5207
+2026-03-18 01:21:28.881 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-18 01:21:28.881 +02:00 [INF] Hosting environment: Development
+2026-03-18 01:21:28.881 +02:00 [INF] Content root path: C:\Users\1\Desktop\תכנות\שנה ב\New folder\ProjectInDotentCore\myProject
+2026-03-18 01:24:54.735 +02:00 [INF] User profile is available. Using 'C:\Users\1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-18 01:24:54.875 +02:00 [INF] Now listening on: http://localhost:5207
+2026-03-18 01:24:54.877 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-18 01:24:54.878 +02:00 [INF] Hosting environment: Development
+2026-03-18 01:24:54.878 +02:00 [INF] Content root path: C:\Users\1\Desktop\תכנות\שנה ב\New folder\ProjectInDotentCore\myProject
+2026-03-18 01:48:38.021 +02:00 [INF] User profile is available. Using 'C:\Users\1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-18 01:48:38.137 +02:00 [INF] Now listening on: http://localhost:5207
+2026-03-18 01:48:38.140 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-18 01:48:38.140 +02:00 [INF] Hosting environment: Development
+2026-03-18 01:48:38.141 +02:00 [INF] Content root path: C:\Users\1\Desktop\תכנות\שנה ב\New folder\ProjectInDotentCore\myProject
+2026-03-18 01:51:32.613 +02:00 [INF] Application is shutting down...
+2026-03-18 01:51:40.349 +02:00 [INF] User profile is available. Using 'C:\Users\1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-18 01:51:40.413 +02:00 [INF] Now listening on: http://localhost:5207
+2026-03-18 01:51:40.414 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-18 01:51:40.415 +02:00 [INF] Hosting environment: Development
+2026-03-18 01:51:40.415 +02:00 [INF] Content root path: C:\Users\1\Desktop\תכנות\שנה ב\New folder\ProjectInDotentCore\myProject
+2026-03-18 01:53:04.926 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5207/api/User/login - application/json 35
+2026-03-18 01:53:06.530 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5207/api/User/login - application/json 35
+2026-03-18 01:53:08.305 +02:00 [INF] Executing endpoint 'myProject.Controllers.UserController.Login (myProject)'
+2026-03-18 01:53:08.305 +02:00 [INF] Executing endpoint 'myProject.Controllers.UserController.Login (myProject)'
+2026-03-18 01:53:08.355 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(myProject.Models.LoginRequest) on controller myProject.Controllers.UserController (myProject).
+2026-03-18 01:53:08.355 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(myProject.Models.LoginRequest) on controller myProject.Controllers.UserController (myProject).
+2026-03-18 01:53:08.727 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-18 01:53:08.727 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-18 01:53:08.786 +02:00 [INF] Executed action myProject.Controllers.UserController.Login (myProject) in 418.5761ms
+2026-03-18 01:53:08.794 +02:00 [INF] Executed endpoint 'myProject.Controllers.UserController.Login (myProject)'
+2026-03-18 01:53:08.792 +02:00 [INF] Executed action myProject.Controllers.UserController.Login (myProject) in 418.5841ms
+2026-03-18 01:53:08.796 +02:00 [INF] Executed endpoint 'myProject.Controllers.UserController.Login (myProject)'
+2026-03-18 01:53:08.825 +02:00 [INF] HTTP POST /api/User/login responded 200 in 3886.7877 ms
+2026-03-18 01:53:08.831 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5207/api/User/login - 200 null application/json; charset=utf-8 3908.8488ms
+2026-03-18 01:53:08.825 +02:00 [INF] HTTP POST /api/User/login responded 200 in 2289.6911 ms
+2026-03-18 01:53:08.835 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5207/api/User/login - 200 null application/json; charset=utf-8 2306.5559ms
+2026-03-18 01:53:09.283 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-03-18 01:53:09.299 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 16.1964 ms
+2026-03-18 01:53:09.300 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 16.6961ms
+2026-03-18 01:53:09.300 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-03-18 01:53:09.350 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/index.html - null null
+2026-03-18 01:53:09.355 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/index.html - null null
+2026-03-18 01:53:09.365 +02:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\1\Desktop\תכנות\שנה ב\New folder\ProjectInDotentCore\myProject\wwwroot\index.html'
+2026-03-18 01:53:09.365 +02:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\1\Desktop\תכנות\שנה ב\New folder\ProjectInDotentCore\myProject\wwwroot\index.html'
+2026-03-18 01:53:09.365 +02:00 [INF] HTTP GET /index.html responded 200 in 15.0242 ms
+2026-03-18 01:53:09.365 +02:00 [INF] HTTP GET /index.html responded 200 in 9.7759 ms
+2026-03-18 01:53:09.365 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/index.html - 499 3744 text/html 15.4952ms
+2026-03-18 01:53:09.365 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/index.html - 200 3744 text/html 10.2987ms
+2026-03-18 01:53:09.394 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/js/notifications.js?v=1 - null null
+2026-03-18 01:53:09.396 +02:00 [INF] The file /js/notifications.js was not modified
+2026-03-18 01:53:09.397 +02:00 [INF] HTTP GET /js/notifications.js responded 304 in 2.7821 ms
+2026-03-18 01:53:09.397 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/js/notifications.js?v=1 - 304 null text/javascript 3.2318ms
+2026-03-18 01:53:09.421 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5207/activityHub/negotiate?negotiateVersion=1 - null 0
+2026-03-18 01:53:09.424 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:53:09.468 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-03-18 01:53:09.469 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 1.4324 ms
+2026-03-18 01:53:09.470 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 1.9342ms
+2026-03-18 01:53:09.471 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-03-18 01:53:09.503 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:53:09.503 +02:00 [INF] Executing endpoint '/activityHub/negotiate'
+2026-03-18 01:53:09.506 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:53:09.508 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:53:09.511 +02:00 [INF] Executed endpoint '/activityHub/negotiate'
+2026-03-18 01:53:09.511 +02:00 [INF] HTTP POST /activityHub/negotiate responded 200 in 89.4218 ms
+2026-03-18 01:53:09.511 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5207/activityHub/negotiate?negotiateVersion=1 - 200 316 application/json 89.7575ms
+2026-03-18 01:53:09.522 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 15.2453ms
+2026-03-18 01:53:09.522 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:53:09.522 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 97.7086 ms
+2026-03-18 01:53:09.522 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 98.0607ms
+2026-03-18 01:53:09.564 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/activityHub?id=W5hs9AViBY_tIMzKsRx-Xg&access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcmlkIjoiNSIsInVzZXJ0eXBlIjoiQWRtaW4iLCJleHAiOjE3NzYzNzk5ODgsImlzcyI6Imh0dHBzOi8vZmJpLWRlbW8uY29tIiwiYXVkIjoiaHR0cHM6Ly9mYmktZGVtby5jb20ifQ.8nSnmRF22cS9zgK2GU5agqRx-xCZWmKftf56TUpmDrk - null null
+2026-03-18 01:53:09.567 +02:00 [INF] Executing endpoint '/activityHub'
+2026-03-18 01:53:28.499 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5207/api/IceCream/7 - application/json 44
+2026-03-18 01:53:28.501 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Update (myProject)'
+2026-03-18 01:53:28.508 +02:00 [INF] Route matched with {action = "Update", controller = "IceCream"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Update(Int32, myProject.IceCream) on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:53:28.517 +02:00 [INF] Executing OkObjectResult, writing value of type 'myProject.IceCream'.
+2026-03-18 01:53:28.517 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Update (myProject) in 9.3275ms
+2026-03-18 01:53:28.518 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Update (myProject)'
+2026-03-18 01:53:28.518 +02:00 [INF] HTTP PUT /api/IceCream/7 responded 200 in 18.4693 ms
+2026-03-18 01:53:28.518 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5207/api/IceCream/7 - 200 null application/json; charset=utf-8 19.061ms
+2026-03-18 01:53:28.522 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:53:28.524 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:53:28.524 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:53:28.525 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:53:28.525 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.9934ms
+2026-03-18 01:53:28.526 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:53:28.526 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 3.5396 ms
+2026-03-18 01:53:28.526 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 3.9106ms
+2026-03-18 01:53:28.528 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:53:28.529 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:53:28.530 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:53:28.530 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:53:28.530 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.4081ms
+2026-03-18 01:53:28.530 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:53:28.530 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 2.0709 ms
+2026-03-18 01:53:28.531 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 2.3965ms
+2026-03-18 01:53:42.041 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5207/api/IceCream/8 - application/json 43
+2026-03-18 01:53:42.043 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Update (myProject)'
+2026-03-18 01:53:42.044 +02:00 [INF] Route matched with {action = "Update", controller = "IceCream"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Update(Int32, myProject.IceCream) on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:53:42.049 +02:00 [INF] Executing OkObjectResult, writing value of type 'myProject.IceCream'.
+2026-03-18 01:53:42.049 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Update (myProject) in 4.8997ms
+2026-03-18 01:53:42.049 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Update (myProject)'
+2026-03-18 01:53:42.050 +02:00 [INF] HTTP PUT /api/IceCream/8 responded 200 in 8.1356 ms
+2026-03-18 01:53:42.050 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5207/api/IceCream/8 - 200 null application/json; charset=utf-8 8.8357ms
+2026-03-18 01:53:42.056 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:53:42.059 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:53:42.059 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:53:42.060 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:53:42.061 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 1.0396ms
+2026-03-18 01:53:42.061 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:53:42.061 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 4.5589 ms
+2026-03-18 01:53:42.061 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 5.1797ms
+2026-03-18 01:53:42.066 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:53:42.068 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:53:42.068 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:53:42.069 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:53:42.070 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 1.2104ms
+2026-03-18 01:53:42.070 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:53:42.070 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 4.1363 ms
+2026-03-18 01:53:42.070 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 4.7327ms
+2026-03-18 01:53:57.326 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/User - application/json null
+2026-03-18 01:53:57.327 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-03-18 01:53:57.328 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.5230 ms
+2026-03-18 01:53:57.328 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 0.6941ms
+2026-03-18 01:53:57.328 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-03-18 01:53:57.328 +02:00 [INF] Executing endpoint 'myProject.Controllers.UserController.Get (myProject)'
+2026-03-18 01:53:57.331 +02:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.User]] Get() on controller myProject.Controllers.UserController (myProject).
+2026-03-18 01:53:57.331 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.User, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:53:57.334 +02:00 [INF] Executed action myProject.Controllers.UserController.Get (myProject) in 3.822ms
+2026-03-18 01:53:57.335 +02:00 [INF] Executed endpoint 'myProject.Controllers.UserController.Get (myProject)'
+2026-03-18 01:53:57.335 +02:00 [INF] HTTP GET /api/User responded 200 in 8.2746 ms
+2026-03-18 01:53:57.335 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/User - 200 null application/json; charset=utf-8 8.5009ms
+2026-03-18 01:53:57.344 +02:00 [INF] Executed endpoint '/activityHub'
+2026-03-18 01:53:57.346 +02:00 [INF] HTTP GET /activityHub responded 101 in 47781.9163 ms
+2026-03-18 01:53:57.347 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/activityHub?id=W5hs9AViBY_tIMzKsRx-Xg&access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcmlkIjoiNSIsInVzZXJ0eXBlIjoiQWRtaW4iLCJleHAiOjE3NzYzNzk5ODgsImlzcyI6Imh0dHBzOi8vZmJpLWRlbW8uY29tIiwiYXVkIjoiaHR0cHM6Ly9mYmktZGVtby5jb20ifQ.8nSnmRF22cS9zgK2GU5agqRx-xCZWmKftf56TUpmDrk - 101 null null 47782.8607ms
+2026-03-18 01:54:11.603 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5207/api/User/6 - application/json 60
+2026-03-18 01:54:11.605 +02:00 [INF] Executing endpoint 'myProject.Controllers.UserController.Update (myProject)'
+2026-03-18 01:54:11.615 +02:00 [INF] Route matched with {action = "Update", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Update(Int32, myProject.User) on controller myProject.Controllers.UserController (myProject).
+2026-03-18 01:54:11.626 +02:00 [INF] Executing OkObjectResult, writing value of type 'myProject.User'.
+2026-03-18 01:54:11.626 +02:00 [INF] Executed action myProject.Controllers.UserController.Update (myProject) in 10.7105ms
+2026-03-18 01:54:11.626 +02:00 [INF] Executed endpoint 'myProject.Controllers.UserController.Update (myProject)'
+2026-03-18 01:54:11.626 +02:00 [INF] HTTP PUT /api/User/6 responded 200 in 22.8630 ms
+2026-03-18 01:54:11.627 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5207/api/User/6 - 200 null application/json; charset=utf-8 23.1852ms
+2026-03-18 01:54:11.632 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/User - application/json null
+2026-03-18 01:54:11.633 +02:00 [INF] Executing endpoint 'myProject.Controllers.UserController.Get (myProject)'
+2026-03-18 01:54:11.633 +02:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.User]] Get() on controller myProject.Controllers.UserController (myProject).
+2026-03-18 01:54:11.634 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.User, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:54:11.634 +02:00 [INF] Executed action myProject.Controllers.UserController.Get (myProject) in 0.432ms
+2026-03-18 01:54:11.634 +02:00 [INF] Executed endpoint 'myProject.Controllers.UserController.Get (myProject)'
+2026-03-18 01:54:11.634 +02:00 [INF] HTTP GET /api/User responded 200 in 2.0570 ms
+2026-03-18 01:54:11.634 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/User - 200 null application/json; charset=utf-8 2.2929ms
+2026-03-18 01:54:30.320 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5207/api/User - application/json 70
+2026-03-18 01:54:30.322 +02:00 [INF] Executing endpoint 'myProject.Controllers.UserController.Create (myProject)'
+2026-03-18 01:54:30.328 +02:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(myProject.User) on controller myProject.Controllers.UserController (myProject).
+2026-03-18 01:54:30.336 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'myProject.User'.
+2026-03-18 01:54:30.362 +02:00 [INF] Executed action myProject.Controllers.UserController.Create (myProject) in 33.8323ms
+2026-03-18 01:54:30.362 +02:00 [INF] Executed endpoint 'myProject.Controllers.UserController.Create (myProject)'
+2026-03-18 01:54:30.362 +02:00 [INF] HTTP POST /api/User responded 201 in 41.5698 ms
+2026-03-18 01:54:30.362 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5207/api/User - 201 null application/json; charset=utf-8 42.0219ms
+2026-03-18 01:54:30.369 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/User - application/json null
+2026-03-18 01:54:30.370 +02:00 [INF] Executing endpoint 'myProject.Controllers.UserController.Get (myProject)'
+2026-03-18 01:54:30.371 +02:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.User]] Get() on controller myProject.Controllers.UserController (myProject).
+2026-03-18 01:54:30.371 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.User, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:54:30.372 +02:00 [INF] Executed action myProject.Controllers.UserController.Get (myProject) in 0.709ms
+2026-03-18 01:54:30.372 +02:00 [INF] Executed endpoint 'myProject.Controllers.UserController.Get (myProject)'
+2026-03-18 01:54:30.372 +02:00 [INF] HTTP GET /api/User responded 200 in 2.9566 ms
+2026-03-18 01:54:30.372 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/User - 200 null application/json; charset=utf-8 3.3927ms
+2026-03-18 01:54:37.697 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-03-18 01:54:37.697 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.6707 ms
+2026-03-18 01:54:37.698 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 0.9297ms
+2026-03-18 01:54:37.698 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-03-18 01:54:43.750 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5207/api/User/login - application/json 33
+2026-03-18 01:54:43.751 +02:00 [INF] Executing endpoint 'myProject.Controllers.UserController.Login (myProject)'
+2026-03-18 01:54:43.752 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(myProject.Models.LoginRequest) on controller myProject.Controllers.UserController (myProject).
+2026-03-18 01:54:43.754 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-03-18 01:54:43.755 +02:00 [INF] Executed action myProject.Controllers.UserController.Login (myProject) in 2.7047ms
+2026-03-18 01:54:43.755 +02:00 [INF] Executed endpoint 'myProject.Controllers.UserController.Login (myProject)'
+2026-03-18 01:54:43.755 +02:00 [INF] HTTP POST /api/User/login responded 200 in 4.2631 ms
+2026-03-18 01:54:43.755 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5207/api/User/login - 200 null application/json; charset=utf-8 4.6866ms
+2026-03-18 01:54:44.321 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-03-18 01:54:44.322 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.6021 ms
+2026-03-18 01:54:44.322 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 0.7977ms
+2026-03-18 01:54:44.322 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5207/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-03-18 01:54:44.362 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5207/activityHub/negotiate?negotiateVersion=1 - null 0
+2026-03-18 01:54:44.362 +02:00 [INF] Executing endpoint '/activityHub/negotiate'
+2026-03-18 01:54:44.363 +02:00 [INF] Executed endpoint '/activityHub/negotiate'
+2026-03-18 01:54:44.363 +02:00 [INF] HTTP POST /activityHub/negotiate responded 200 in 1.1790 ms
+2026-03-18 01:54:44.363 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5207/activityHub/negotiate?negotiateVersion=1 - 200 316 application/json 1.5835ms
+2026-03-18 01:54:44.364 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:54:44.366 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:54:44.366 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:54:44.367 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:54:44.368 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 1.3697ms
+2026-03-18 01:54:44.368 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:54:44.368 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 3.5597 ms
+2026-03-18 01:54:44.368 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 3.806ms
+2026-03-18 01:54:44.407 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/activityHub?id=-6NEpWtuQhmDYvgCbzbvYw&access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5vYSIsInVzZXJpZCI6IjciLCJ1c2VydHlwZSI6IlVzZXIiLCJleHAiOjE3NzYzODAwODMsImlzcyI6Imh0dHBzOi8vZmJpLWRlbW8uY29tIiwiYXVkIjoiaHR0cHM6Ly9mYmktZGVtby5jb20ifQ.5KlOa2UA75AkGS83Dw9jFnLpBI152S7a2XgAfRSpN6o - null null
+2026-03-18 01:54:44.410 +02:00 [INF] Executing endpoint '/activityHub'
+2026-03-18 01:54:53.875 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5207/activityHub/negotiate?negotiateVersion=1 - null 0
+2026-03-18 01:54:53.875 +02:00 [INF] Executing endpoint '/activityHub/negotiate'
+2026-03-18 01:54:53.876 +02:00 [INF] Executed endpoint '/activityHub/negotiate'
+2026-03-18 01:54:53.876 +02:00 [INF] HTTP POST /activityHub/negotiate responded 200 in 0.8469 ms
+2026-03-18 01:54:53.876 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5207/activityHub/negotiate?negotiateVersion=1 - 200 316 application/json 1.0282ms
+2026-03-18 01:54:53.876 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:54:53.877 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:54:53.877 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:54:53.877 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:54:53.877 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.2582ms
+2026-03-18 01:54:53.877 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:54:53.877 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 1.3007 ms
+2026-03-18 01:54:53.877 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 1.4143ms
+2026-03-18 01:54:54.990 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/activityHub?id=WUTZ4kuTrpp_5BRsC-TtVg&access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5vYSIsInVzZXJpZCI6IjciLCJ1c2VydHlwZSI6IlVzZXIiLCJleHAiOjE3NzYzODAwODMsImlzcyI6Imh0dHBzOi8vZmJpLWRlbW8uY29tIiwiYXVkIjoiaHR0cHM6Ly9mYmktZGVtby5jb20ifQ.5KlOa2UA75AkGS83Dw9jFnLpBI152S7a2XgAfRSpN6o - null null
+2026-03-18 01:54:54.991 +02:00 [INF] Executing endpoint '/activityHub'
+2026-03-18 01:55:09.770 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5207/api/IceCream/6 - application/json 37
+2026-03-18 01:55:09.772 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Update (myProject)'
+2026-03-18 01:55:09.772 +02:00 [INF] Route matched with {action = "Update", controller = "IceCream"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Update(Int32, myProject.IceCream) on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:09.776 +02:00 [INF] Executing OkObjectResult, writing value of type 'myProject.IceCream'.
+2026-03-18 01:55:09.777 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Update (myProject) in 4.3398ms
+2026-03-18 01:55:09.777 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Update (myProject)'
+2026-03-18 01:55:09.777 +02:00 [INF] HTTP PUT /api/IceCream/6 responded 200 in 6.5540 ms
+2026-03-18 01:55:09.777 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5207/api/IceCream/6 - 200 null application/json; charset=utf-8 6.9559ms
+2026-03-18 01:55:09.781 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:09.783 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:09.783 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:09.783 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:09.784 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.5369ms
+2026-03-18 01:55:09.784 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:09.784 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 2.3737 ms
+2026-03-18 01:55:09.784 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 2.6366ms
+2026-03-18 01:55:09.788 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:09.790 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:09.790 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:09.790 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:09.791 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.4858ms
+2026-03-18 01:55:09.791 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:09.791 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 2.8449 ms
+2026-03-18 01:55:09.791 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 3.257ms
+2026-03-18 01:55:09.794 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:09.795 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:09.795 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:09.796 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:09.796 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.5222ms
+2026-03-18 01:55:09.796 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:09.796 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 1.9895 ms
+2026-03-18 01:55:09.797 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 2.2838ms
+2026-03-18 01:55:17.758 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5207/api/IceCream - application/json 44
+2026-03-18 01:55:17.758 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Create (myProject)'
+2026-03-18 01:55:17.765 +02:00 [INF] Route matched with {action = "Create", controller = "IceCream"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Create(myProject.IceCream) on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:17.768 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'myProject.IceCream'.
+2026-03-18 01:55:17.770 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Create (myProject) in 4.8832ms
+2026-03-18 01:55:17.770 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Create (myProject)'
+2026-03-18 01:55:17.770 +02:00 [INF] HTTP POST /api/IceCream responded 201 in 12.5167 ms
+2026-03-18 01:55:17.771 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5207/api/IceCream - 201 null application/json; charset=utf-8 12.8081ms
+2026-03-18 01:55:17.772 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:17.773 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:17.774 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:17.774 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:17.774 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.4734ms
+2026-03-18 01:55:17.774 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:17.774 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 2.0163 ms
+2026-03-18 01:55:17.775 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 2.2825ms
+2026-03-18 01:55:17.777 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:17.778 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:17.779 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:17.779 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:17.779 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.3871ms
+2026-03-18 01:55:17.779 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:17.779 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 1.6484 ms
+2026-03-18 01:55:17.779 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 1.8401ms
+2026-03-18 01:55:17.781 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:17.783 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:17.783 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:17.783 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:17.783 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.391ms
+2026-03-18 01:55:17.783 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:17.783 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 1.9307 ms
+2026-03-18 01:55:17.783 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 2.1582ms
+2026-03-18 01:55:28.616 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5207/api/IceCream/9 - application/json 43
+2026-03-18 01:55:28.618 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Update (myProject)'
+2026-03-18 01:55:28.618 +02:00 [INF] Route matched with {action = "Update", controller = "IceCream"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Update(Int32, myProject.IceCream) on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:28.621 +02:00 [INF] Executing OkObjectResult, writing value of type 'myProject.IceCream'.
+2026-03-18 01:55:28.621 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Update (myProject) in 3.1828ms
+2026-03-18 01:55:28.621 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Update (myProject)'
+2026-03-18 01:55:28.622 +02:00 [INF] HTTP PUT /api/IceCream/9 responded 200 in 5.0521 ms
+2026-03-18 01:55:28.622 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5207/api/IceCream/9 - 200 null application/json; charset=utf-8 5.5739ms
+2026-03-18 01:55:28.625 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:28.627 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:28.627 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:28.627 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:28.627 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.6266ms
+2026-03-18 01:55:28.628 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:28.628 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 2.3262 ms
+2026-03-18 01:55:28.628 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 2.5783ms
+2026-03-18 01:55:28.631 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:28.632 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:28.632 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:28.632 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:28.633 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.4791ms
+2026-03-18 01:55:28.633 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:28.633 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 1.8690 ms
+2026-03-18 01:55:28.633 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 2.0079ms
+2026-03-18 01:55:28.635 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:28.637 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:28.637 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:28.638 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:28.638 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.5591ms
+2026-03-18 01:55:28.638 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:28.638 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 2.7406 ms
+2026-03-18 01:55:28.639 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 3.2514ms
+2026-03-18 01:55:31.670 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5207/api/IceCream/6 - application/json null
+2026-03-18 01:55:31.672 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Delete (myProject)'
+2026-03-18 01:55:31.682 +02:00 [INF] Route matched with {action = "Delete", controller = "IceCream"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Delete(Int32) on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:31.689 +02:00 [INF] Executing OkObjectResult, writing value of type 'myProject.IceCream'.
+2026-03-18 01:55:31.689 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Delete (myProject) in 6.0986ms
+2026-03-18 01:55:31.689 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Delete (myProject)'
+2026-03-18 01:55:31.689 +02:00 [INF] HTTP DELETE /api/IceCream/6 responded 200 in 18.6356 ms
+2026-03-18 01:55:31.689 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5207/api/IceCream/6 - 200 null application/json; charset=utf-8 18.8708ms
+2026-03-18 01:55:31.692 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:31.694 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:31.694 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:31.694 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:31.695 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.4519ms
+2026-03-18 01:55:31.695 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:31.695 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 2.7396 ms
+2026-03-18 01:55:31.695 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 3.0671ms
+2026-03-18 01:55:31.698 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:31.700 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:31.700 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:31.700 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:31.701 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.5851ms
+2026-03-18 01:55:31.701 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:31.701 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 2.2592 ms
+2026-03-18 01:55:31.701 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 2.7705ms
+2026-03-18 01:55:31.703 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5207/api/IceCream - application/json null
+2026-03-18 01:55:31.704 +02:00 [INF] Executing endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:31.704 +02:00 [INF] Route matched with {action = "Get", controller = "IceCream"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[myProject.IceCream]] Get() on controller myProject.Controllers.IceCreamController (myProject).
+2026-03-18 01:55:31.705 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[myProject.IceCream, myProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-18 01:55:31.705 +02:00 [INF] Executed action myProject.Controllers.IceCreamController.Get (myProject) in 0.4928ms
+2026-03-18 01:55:31.705 +02:00 [INF] Executed endpoint 'myProject.Controllers.IceCreamController.Get (myProject)'
+2026-03-18 01:55:31.705 +02:00 [INF] HTTP GET /api/IceCream responded 200 in 2.2182 ms
+2026-03-18 01:55:31.705 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/api/IceCream - 200 null application/json; charset=utf-8 2.5744ms
+2026-03-18 01:56:15.822 +02:00 [INF] Executed endpoint '/activityHub'
+2026-03-18 01:56:15.822 +02:00 [INF] HTTP GET /activityHub responded 101 in 80832.6981 ms
+2026-03-18 01:56:15.823 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5207/activityHub?id=WUTZ4kuTrpp_5BRsC-TtVg&access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5vYSIsInVzZXJpZCI6IjciLCJ1c2VydHlwZSI6IlVzZXIiLCJleHAiOjE3NzYzODAwODMsImlzcyI6Imh0dHBzOi8vZmJpLWRlbW8uY29tIiwiYXVkIjoiaHR0cHM6Ly9mYmktZGVtby5jb20ifQ.5KlOa2UA75AkGS83Dw9jFnLpBI152S7a2XgAfRSpN6o - 101 null null 80833.0699ms

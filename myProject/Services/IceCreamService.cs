@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.SignalR;
 using myProject.Hubs;
 using Microsoft.AspNetCore.Http;
-
+using System.Text.Json;
 namespace myProject.Services;
 
 public class IceCreamService : IIceCreamService
@@ -57,12 +57,10 @@ public class IceCreamService : IIceCreamService
             }
             catch
             {
-                // אם יש שגיאה בטעינה, נשתמש בברירות המחדל
                 list = GetDefaultIceCreams();
             }
         }
 
-        // תמיד שמור את הנתונים כך שיהיו מעודכנים
         saveToFile();
     
 
@@ -78,7 +76,6 @@ public class IceCreamService : IIceCreamService
 
     public List<IceCream> Get()
     {
-        saveToFile();
         return list;
     }
 
@@ -122,12 +119,14 @@ public class IceCreamService : IIceCreamService
         saveToFile();
         return true;
     }
-
-   
-
+public void DeleteByUserId(int userId)
+{
+    list.RemoveAll(x => x.UserId == userId);
+    saveToFile();
+}
 }
 
-public static class IceCreamExtension
+public static class IceCreamExtensions
 {
     public static void AddIceCream(this IServiceCollection services)
     {

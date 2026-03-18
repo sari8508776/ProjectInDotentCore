@@ -1,11 +1,11 @@
 using myProject.Models;
 using Microsoft.AspNetCore.Http;
-
-
 namespace myProject.Interfaces
 {
-    public interface IActiveUser
-    {
-        User ActiveUser { get; }
-    }
+    public interface IActivUserService
+{
+         User ActiveUser { get; }
 }
+}
+
+

@@ -24,76 +24,130 @@ function getUsername() {
     }
 }
 
-function getItems() {
-    fetch(uri, {
-        headers: getHeaders()
-    })
-        .then(response => {
-            if (!response.ok) {
-                if (response.status === 401) {
-                    localStorage.removeItem('token');
-                    window.location.href = 'login.html';
-                    return;
-                }
-                throw new Error('HTTP error ' + response.status);
-            }
-            return response.json();
-        })
-        .then(data => _displayItems(data))
-        .catch(error => console.error('Unable to get items.', error));
-}
+// function getItems() {
+//     fetch(uri, {
+//         headers: getHeaders()
+//     })
+//         .then(response => {
+//             if (!response.ok) {
+//                 if (response.status === 401) {
+//                     localStorage.removeItem('token');
+//                     window.location.href = 'login.html';
+//                     return;
+//                 }
+//                 throw new Error('HTTP error ' + response.status);
+//             }
+//             return response.json();
+//         })
+//         .then(data => _displayItems(data))
+//         .catch(error => console.error('Unable to get items.', error));
+// }
 
+// function addItem() {
+//     const addNameTextbox = document.getElementById('add-name');
+//     const addIsVegan = document.getElementById('add-isVegan').checked;
+
+//     const item = {
+//         isVegan: addIsVegan,
+//         name: addNameTextbox.value.trim()
+//     };
+
+//     fetch(uri, {
+//             method: 'POST',
+//             headers: getHeaders(),
+//             body: JSON.stringify(item)
+//         })
+//         .then(response => {
+//             if (!response.ok) {
+//                 if (response.status === 401) {
+//                     localStorage.removeItem('token');
+//                     window.location.href = 'login.html';
+//                     return;
+//                 }
+//                 throw new Error('Network response was not ok');
+//             }
+//             return response.json();
+//         })
+//         .then(() => {
+//             getItems();
+//             addNameTextbox.value = '';
+//             document.getElementById('add-isVegan').checked = false;
+//         })
+//         .catch(error => console.error('Unable to add item.', error));
+// }
+
+// function deleteItem(id) {
+//     fetch(`${uri}/${id}`, {
+//             method: 'DELETE',
+//             headers: getHeaders()
+//         })
+//         .then(response => {
+//             if (!response.ok) {
+//                 if (response.status === 401) {
+//                     localStorage.removeItem('token');
+//                     window.location.href = 'login.html';
+//                     return;
+//                 }
+//                 throw new Error('HTTP error ' + response.status);
+//             }
+//             return response;
+//         })
+//         .then(() => getItems())
+//         .catch(error => console.error('Unable to delete user.', error));
+// }
 function addItem() {
     const addNameTextbox = document.getElementById('add-name');
-    const addIsVegan = document.getElementById('add-isVegan').checked;
-
     const item = {
-        isVegan: addIsVegan,
+        isVegan: document.getElementById('add-isVegan').checked,
         name: addNameTextbox.value.trim()
     };
 
-    fetch(uri, {
-            method: 'POST',
-            headers: getHeaders(),
-            body: JSON.stringify(item)
-        })
+    fetch(uri, { method: 'POST', headers: getHeaders(), body: JSON.stringify(item) })
         .then(response => {
-            if (!response.ok) {
-                if (response.status === 401) {
-                    localStorage.removeItem('token');
-                    window.location.href = 'login.html';
-                    return;
-                }
-                throw new Error('Network response was not ok');
-            }
+            if (!response.ok) { if (response.status === 401) { localStorage.removeItem('token'); window.location.href = 'login.html'; } throw new Error(); }
             return response.json();
         })
         .then(() => {
-            getItems();
             addNameTextbox.value = '';
             document.getElementById('add-isVegan').checked = false;
+            showToast('✅ Flavor added successfully!');
         })
         .catch(error => console.error('Unable to add item.', error));
 }
 
 function deleteItem(id) {
-    fetch(`${uri}/${id}`, {
-            method: 'DELETE',
-            headers: getHeaders()
-        })
+    fetch(`${uri}/${id}`, { method: 'DELETE', headers: getHeaders() })
         .then(response => {
-            if (!response.ok) {
-                if (response.status === 401) {
-                    localStorage.removeItem('token');
-                    window.location.href = 'login.html';
-                    return;
-                }
-                throw new Error('HTTP error ' + response.status);
-            }
-            return response;
+            if (!response.ok) { if (response.status === 401) { localStorage.removeItem('token'); window.location.href = 'login.html'; } throw new Error(); }
         })
-        .then(() => getItems())
-        .catch(error => console.error('Unable to delete user.', error));
+        .then(() => showToast('🗑️ Flavor deleted successfully!'))
+        .catch(error => console.error('Unable to delete item.', error));
+}
+
+function updateItem() {
+    const itemId = document.getElementById('edit-id').value.trim();
+    const item = {
+        isVegan: document.getElementById('edit-isVegan').checked,
+        name: document.getElementById('edit-name').value.trim()
+    };
+
+    fetch(`${uri}/${itemId}`, { method: 'PUT', headers: getHeaders(), body: JSON.stringify(item) })
+        .then(response => {
+            if (!response.ok) { if (response.status === 401) { localStorage.removeItem('token'); window.location.href = 'login.html'; } throw new Error(); }
+        })
+        .then(() => showToast('💾 Flavor updated successfully!'))
+        .catch(error => console.error('Unable to update item.', error));
+
+    closeInput();
+    return false;
+}
+
+function showToast(message) {
+    const toast = document.createElement('div');
+    toast.textContent = message;
+    toast.style.cssText = 'position:fixed;left:12px;bottom:12px;background:rgba(0,150,0,0.85);color:#fff;padding:8px 16px;border-radius:6px;z-index:9999;font-weight:bold;';
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 3000);
 }
 
 function displayEditForm(id) {

@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace myProject.Services
 {
-    public class ActiveUserService : IActiveUser
+    public class ActiveUserService : IActivUserService
     {
         public User ActiveUser { get; private set; }
         public ActiveUserService(IHttpContextAccessor context)
@@ -35,11 +35,11 @@ namespace myProject.Services
 
     }
 
-    public static class KsPizzaExtensions
+    public static class ActiveUserExtensions
     {
         public static IServiceCollection UseActiveUser(this IServiceCollection services)
         {
-            services.AddScoped<IActiveUser, ActiveUserService>();
+            services.AddScoped<IActivUserService, ActiveUserService>();
             return services;
         }
     }

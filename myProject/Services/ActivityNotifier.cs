@@ -4,9 +4,8 @@ using myProject.Hubs;
 namespace myProject.Services;
 
 public interface IActivityRepository
-
 {
-    System.Threading.Tasks.Task BroadcastAsync(string username, string action, string itemName);
+    Task BroadcastAsync(string username, string action, string itemName);
 }
 
 public class ActivityRepository : IActivityRepository
@@ -18,8 +17,13 @@ public class ActivityRepository : IActivityRepository
         this.hub = hub;
     }
 
-    public System.Threading.Tasks.Task BroadcastAsync(string username, string action, string itemName)
+    public Task BroadcastAsync(string username, string action, string itemName)
     {
-        return this.hub.Clients.All.SendAsync("ReceiveActivity", username, action, itemName);
+        var connectionIds = ActivityHub.GetConnectionIds(username);
+        if (connectionIds.Count == 0)
+            return Task.CompletedTask;
+
+        return hub.Clients.Clients(connectionIds)
+            .SendAsync("ReceiveActivity", username, action, itemName);
     }
 }

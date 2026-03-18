@@ -76,7 +76,6 @@ public class UserService : IUserService
 
     public List<User> Get()
     {
-        saveToFile();
         return Users;
     }
 
@@ -126,7 +125,7 @@ public class UserService : IUserService
     }
 }
 
-public static class UserServiceExtension
+public static class UserServiceExtensions
 {
     public static void addUserService(this IServiceCollection services)
     {

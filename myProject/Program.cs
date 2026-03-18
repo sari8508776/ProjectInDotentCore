@@ -1,22 +1,29 @@
 using myProject.Interfaces;
 using myProject;
 using myProject.Services;
+using myProject.Hubs;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-
+using Serilog;
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File(
+        "logs/log-.txt",
+        rollingInterval: RollingInterval.Day,
+        fileSizeLimitBytes: 50_000_000,
+        rollOnFileSizeLimit: true)
+    .CreateLogger();
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
+builder.Host.UseSerilog();
 
 builder.Services.AddControllers();
-
-// register all project services (ice cream, user, active-user, SignalR)
-builder.Services.AddProjectServices();
-
-// Add authentication
 builder.Services
     .AddAuthentication(options =>
     {
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
         options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
     })
     .AddJwtBearer(cfg =>
@@ -24,37 +31,28 @@ builder.Services
         cfg.RequireHttpsMetadata = false;
         cfg.TokenValidationParameters = UserTokenService.GetTokenValidationParameters();
 
-        // allow SignalR websocket connections to send access_token as query string
-        cfg.Events = new Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents
+        cfg.Events = new JwtBearerEvents
         {
             OnMessageReceived = context =>
             {
-                var accessToken = context.Request.Query["access_token"].ToString();
-                var path = context.HttpContext?.Request?.Path;
-                var pathValue = path.HasValue ? path.Value.ToString() : string.Empty;
-                if (!string.IsNullOrEmpty(accessToken) && !string.IsNullOrEmpty(pathValue) && pathValue.StartsWith("/activityHub", System.StringComparison.OrdinalIgnoreCase))
+                var accessToken = context.Request.Query["access_token"];
+                var path = context.HttpContext.Request.Path;
+                if (!string.IsNullOrEmpty(accessToken) &&
+                    path.StartsWithSegments("/activityHub"))
                 {
                     context.Token = accessToken;
                 }
-                return System.Threading.Tasks.Task.CompletedTask;
+                return Task.CompletedTask;
             }
         };
     });
 
-builder.Services.AddAuthorization(cfg =>
-    {
-        cfg.AddPolicy("AllUsers", policy => policy.RequireClaim("usertype", "Admin", "Agent", "User"));
-        cfg.AddPolicy("Admin", policy => policy.RequireClaim("usertype", "Admin"));
-        cfg.AddPolicy("Agent", policy => policy.RequireClaim("usertype", "Agent"));
-        cfg.AddPolicy("User", policy => policy.RequireClaim("usertype", "User"));
-        // cfg.AddPolicy("ClearanceLevel1", policy => policy.RequireClaim("ClearanceLevel", "1", "2")
-        //     || policy.RequireClaim("usertype", "Admin")
-        // );
-        cfg.AddPolicy("ClearanceLevel2", policy => policy.RequireClaim("ClearanceLevel", "2"));
-    });
-builder.Services.AddHttpContextAccessor();
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Admin", policy => policy.RequireClaim("usertype", "Admin"));
+});
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "myProject", Version = "v1" });
@@ -66,34 +64,25 @@ builder.Services.AddSwaggerGen(c =>
         Type = SecuritySchemeType.ApiKey
     });
     c.AddSecurityRequirement(new OpenApiSecurityRequirement {
-            { new OpenApiSecurityScheme
-                    {
-                     Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer"}
-                    },
-                new string[] {}
-            }
+        { new OpenApiSecurityScheme { Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer"}}, new string[] {} }
     });
 });
 
 builder.Services.AddSingleton<LogQueue>();
-
 builder.Services.AddHostedService<LogBackgroundWorker>();
+builder.Services.AddProjectServices();
 var app = builder.Build();
+app.UseSerilogRequestLogging();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(options =>
-    {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-    });
+    app.UseSwaggerUI();
 }
-app.UseDefaultFiles(new DefaultFilesOptions
-{
-    DefaultFileNames = new List<string> { "login.html" }
-});
+
+app.UseDefaultFiles(new DefaultFilesOptions { DefaultFileNames = new List<string> { "login.html" } });
 app.UseStaticFiles();
 
-app.UseHttpsRedirection();
+app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
@@ -101,7 +90,6 @@ app.UseAuthorization();
 app.UseMyLogMiddleware();
 
 app.MapControllers();
-
-app.MapHub<myProject.Hubs.ActivityHub>("/activityHub");
+app.MapHub<ActivityHub>("/activityHub");
 
 app.Run();

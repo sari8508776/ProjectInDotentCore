@@ -51,7 +51,7 @@
         </tr>
         <tbody id="products"></tbody>
     </table>
-    <a href="html/user.html">👤 Go to Users</a>
+    <a id="usersLink" href="html/user.html" style="display:none;">👥 Go to Users</a>
     <script src="js/site.js?v=2"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
     <script src="js/notifications.js?v=1"></script>
@@ -59,6 +59,11 @@
         if (!localStorage.getItem('token')) {
             window.location.href = 'login.html';
         } else {
+            const payload = JSON.parse(atob(localStorage.getItem('token').split('.')[1]));
+            if (payload && payload.usertype === 'Admin') {
+                document.getElementById('usersLink').style.display = 'inline';
+            }
+
             const username = getUsername();
             const loginLink = document.getElementById('loginLink');
             const logoutLink = document.getElementById('logoutLink');

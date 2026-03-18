@@ -1,15 +1,44 @@
 using Microsoft.AspNetCore.SignalR;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using System.Collections.Concurrent;
 
 namespace myProject.Hubs;
 
 [Authorize]
 public class ActivityHub : Hub
 {
-    // Broadcasts a simple activity (username, action, itemName) to all clients
-    public async Task BroadcastActivity(string username, string action, string itemName)
+    private static readonly ConcurrentDictionary<string, List<string>> _userConnections = new();
+
+    public override Task OnConnectedAsync()
     {
-        await Clients.All.SendAsync("ReceiveActivity", username, action, itemName);
+        var username = Context.User?.FindFirst("username")?.Value;
+        if (username != null)
+        {
+            _userConnections.AddOrUpdate(
+                username,
+                new List<string> { Context.ConnectionId },
+                (key, list) => { list.Add(Context.ConnectionId); return list; }
+            );
+        }
+        return base.OnConnectedAsync();
+    }
+
+    public override Task OnDisconnectedAsync(Exception? exception)
+    {
+        var username = Context.User?.FindFirst("username")?.Value;
+        if (username != null && _userConnections.TryGetValue(username, out var list))
+        {
+            list.Remove(Context.ConnectionId);
+            if (list.Count == 0)
+                _userConnections.TryRemove(username, out _);
+        }
+        return base.OnDisconnectedAsync(exception);
+    }
+
+    public static IReadOnlyList<string> GetConnectionIds(string username)
+    {
+        return _userConnections.TryGetValue(username, out var list)
+            ? list.ToList()
+            : new List<string>();
     }
 }
